@@ -6,7 +6,17 @@ set(CMAKE_C_STANDARD 99)
 set(SOURCE_FILES
         new.c
         Point.c
-        String.c init_classes.c classes_lib.h MLXConn.c MLXConn.h Image.c Image.h Linked_list.c Linked_list.h)
+        String.c
+        init_classes.c
+        classes_lib.h
+        MLXConn.c
+        MLXConn.h
+        Image.c
+        Image.h
+        Linked_list.c
+        Linked_list.h
+        room.c
+        room.h)
 include_directories(../libft/includes)
 
 include_directories(libmlx)

@@ -314,6 +314,33 @@ new.c.s:
 	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f classes_lib/CMakeFiles/classes_lib.dir/build.make classes_lib/CMakeFiles/classes_lib.dir/new.c.s
 .PHONY : new.c.s
 
+room.o: room.c.o
+
+.PHONY : room.o
+
+# target to build an object file
+room.c.o:
+	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f classes_lib/CMakeFiles/classes_lib.dir/build.make classes_lib/CMakeFiles/classes_lib.dir/room.c.o
+.PHONY : room.c.o
+
+room.i: room.c.i
+
+.PHONY : room.i
+
+# target to preprocess a source file
+room.c.i:
+	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f classes_lib/CMakeFiles/classes_lib.dir/build.make classes_lib/CMakeFiles/classes_lib.dir/room.c.i
+.PHONY : room.c.i
+
+room.s: room.c.s
+
+.PHONY : room.s
+
+# target to generate assembly for a file
+room.c.s:
+	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f classes_lib/CMakeFiles/classes_lib.dir/build.make classes_lib/CMakeFiles/classes_lib.dir/room.c.s
+.PHONY : room.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -344,6 +371,9 @@ help:
 	@echo "... new.o"
 	@echo "... new.i"
 	@echo "... new.s"
+	@echo "... room.o"
+	@echo "... room.i"
+	@echo "... room.s"
 .PHONY : help
 
 

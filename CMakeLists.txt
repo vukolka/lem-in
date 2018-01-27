@@ -3,7 +3,12 @@ project(lem-in C)
 
 set(CMAKE_C_STANDARD 99)
 
-set(SOURCE_FILES src/main.c)
+set(SOURCE_FILES
+        src/main.c
+        src/room_lib.c
+        src/ft_print_error.c
+        src/parsing.c
+        src/ant.h)
 
 add_subdirectory(libft)
 

@@ -110,6 +110,12 @@
 		<Unit filename="/home/vukolov/Documents/unit/lem-in/classes_lib/new.h">
 			<Option target="classes_lib"/>
 		</Unit>
+		<Unit filename="/home/vukolov/Documents/unit/lem-in/classes_lib/room.c">
+			<Option target="classes_lib"/>
+		</Unit>
+		<Unit filename="/home/vukolov/Documents/unit/lem-in/classes_lib/room.h">
+			<Option target="classes_lib"/>
+		</Unit>
 		<Unit filename="/home/vukolov/Documents/unit/lem-in/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

@@ -6,6 +6,8 @@
 
 #IncludeRegexTransform: 
 
+../classes_lib/Linked_list.h
+
 ../classes_lib/MLXConn.h
 
 ../classes_lib/classes_lib.h
@@ -16,6 +18,30 @@ stddef.h
 stdarg.h
 -
 
+../classes_lib/room.h
+Linked_list.h
+../classes_lib/Linked_list.h
+
+../libft/includes/ft_printf.h
+stdarg.h
+-
+stdio.h
+-
+libft.h
+../libft/includes/libft.h
+
+../libft/includes/libft.h
+string.h
+-
+stdlib.h
+-
+unistd.h
+-
+stdarg.h
+-
+
+/home/vukolov/Documents/unit/lem-in/src/ant.h
+
 /home/vukolov/Documents/unit/lem-in/src/main.c
 stdio.h
 -
@@ -24,5 +50,15 @@ classes_lib.h
 new.h
 -
 MLXConn.h
+-
+room.h
+-
+ft_printf.h
+-
+ant.h
+/home/vukolov/Documents/unit/lem-in/src/ant.h
+
+/home/vukolov/Documents/unit/lem-in/src/room_lib.c
+room.h
 -
 

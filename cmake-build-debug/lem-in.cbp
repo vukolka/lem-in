@@ -330,6 +330,12 @@
 		<Unit filename="/home/vukolov/Documents/unit/lem-in/classes_lib/new.h">
 			<Option target="classes_lib"/>
 		</Unit>
+		<Unit filename="/home/vukolov/Documents/unit/lem-in/classes_lib/room.c">
+			<Option target="classes_lib"/>
+		</Unit>
+		<Unit filename="/home/vukolov/Documents/unit/lem-in/classes_lib/room.h">
+			<Option target="classes_lib"/>
+		</Unit>
 		<Unit filename="/home/vukolov/Documents/unit/lem-in/libft/ft_printf/ft_printf/apply_flags.c">
 			<Option target="ft_printf"/>
 		</Unit>
@@ -591,7 +597,19 @@
 		<Unit filename="/home/vukolov/Documents/unit/lem-in/libft/get_next_line/get_next_line.h">
 			<Option target="libft.a"/>
 		</Unit>
+		<Unit filename="/home/vukolov/Documents/unit/lem-in/src/ant.h">
+			<Option target="lem-in"/>
+		</Unit>
+		<Unit filename="/home/vukolov/Documents/unit/lem-in/src/ft_print_error.c">
+			<Option target="lem-in"/>
+		</Unit>
 		<Unit filename="/home/vukolov/Documents/unit/lem-in/src/main.c">
+			<Option target="lem-in"/>
+		</Unit>
+		<Unit filename="/home/vukolov/Documents/unit/lem-in/src/parsing.c">
+			<Option target="lem-in"/>
+		</Unit>
+		<Unit filename="/home/vukolov/Documents/unit/lem-in/src/room_lib.c">
 			<Option target="lem-in"/>
 		</Unit>
 		<Unit filename="/home/vukolov/Documents/unit/lem-in/CMakeLists.txt">

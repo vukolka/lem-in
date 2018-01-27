@@ -225,6 +225,30 @@ classes_lib/CMakeFiles/classes_lib.dir/Linked_list.c.o.provides: classes_lib/CMa
 classes_lib/CMakeFiles/classes_lib.dir/Linked_list.c.o.provides.build: classes_lib/CMakeFiles/classes_lib.dir/Linked_list.c.o
 
 
+classes_lib/CMakeFiles/classes_lib.dir/room.c.o: classes_lib/CMakeFiles/classes_lib.dir/flags.make
+classes_lib/CMakeFiles/classes_lib.dir/room.c.o: ../classes_lib/room.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object classes_lib/CMakeFiles/classes_lib.dir/room.c.o"
+	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug/classes_lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/classes_lib.dir/room.c.o   -c /home/vukolov/Documents/unit/lem-in/classes_lib/room.c
+
+classes_lib/CMakeFiles/classes_lib.dir/room.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/classes_lib.dir/room.c.i"
+	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug/classes_lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/lem-in/classes_lib/room.c > CMakeFiles/classes_lib.dir/room.c.i
+
+classes_lib/CMakeFiles/classes_lib.dir/room.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/classes_lib.dir/room.c.s"
+	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug/classes_lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/lem-in/classes_lib/room.c -o CMakeFiles/classes_lib.dir/room.c.s
+
+classes_lib/CMakeFiles/classes_lib.dir/room.c.o.requires:
+
+.PHONY : classes_lib/CMakeFiles/classes_lib.dir/room.c.o.requires
+
+classes_lib/CMakeFiles/classes_lib.dir/room.c.o.provides: classes_lib/CMakeFiles/classes_lib.dir/room.c.o.requires
+	$(MAKE) -f classes_lib/CMakeFiles/classes_lib.dir/build.make classes_lib/CMakeFiles/classes_lib.dir/room.c.o.provides.build
+.PHONY : classes_lib/CMakeFiles/classes_lib.dir/room.c.o.provides
+
+classes_lib/CMakeFiles/classes_lib.dir/room.c.o.provides.build: classes_lib/CMakeFiles/classes_lib.dir/room.c.o
+
+
 # Object files for target classes_lib
 classes_lib_OBJECTS = \
 "CMakeFiles/classes_lib.dir/new.c.o" \
@@ -233,7 +257,8 @@ classes_lib_OBJECTS = \
 "CMakeFiles/classes_lib.dir/init_classes.c.o" \
 "CMakeFiles/classes_lib.dir/MLXConn.c.o" \
 "CMakeFiles/classes_lib.dir/Image.c.o" \
-"CMakeFiles/classes_lib.dir/Linked_list.c.o"
+"CMakeFiles/classes_lib.dir/Linked_list.c.o" \
+"CMakeFiles/classes_lib.dir/room.c.o"
 
 # External object files for target classes_lib
 classes_lib_EXTERNAL_OBJECTS =
@@ -245,9 +270,10 @@ classes_lib/libclasses_lib.a: classes_lib/CMakeFiles/classes_lib.dir/init_classe
 classes_lib/libclasses_lib.a: classes_lib/CMakeFiles/classes_lib.dir/MLXConn.c.o
 classes_lib/libclasses_lib.a: classes_lib/CMakeFiles/classes_lib.dir/Image.c.o
 classes_lib/libclasses_lib.a: classes_lib/CMakeFiles/classes_lib.dir/Linked_list.c.o
+classes_lib/libclasses_lib.a: classes_lib/CMakeFiles/classes_lib.dir/room.c.o
 classes_lib/libclasses_lib.a: classes_lib/CMakeFiles/classes_lib.dir/build.make
 classes_lib/libclasses_lib.a: classes_lib/CMakeFiles/classes_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vukolov/Documents/unit/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C static library libclasses_lib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vukolov/Documents/unit/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C static library libclasses_lib.a"
 	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug/classes_lib && $(CMAKE_COMMAND) -P CMakeFiles/classes_lib.dir/cmake_clean_target.cmake
 	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug/classes_lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/classes_lib.dir/link.txt --verbose=$(VERBOSE)
 
@@ -263,6 +289,7 @@ classes_lib/CMakeFiles/classes_lib.dir/requires: classes_lib/CMakeFiles/classes_
 classes_lib/CMakeFiles/classes_lib.dir/requires: classes_lib/CMakeFiles/classes_lib.dir/MLXConn.c.o.requires
 classes_lib/CMakeFiles/classes_lib.dir/requires: classes_lib/CMakeFiles/classes_lib.dir/Image.c.o.requires
 classes_lib/CMakeFiles/classes_lib.dir/requires: classes_lib/CMakeFiles/classes_lib.dir/Linked_list.c.o.requires
+classes_lib/CMakeFiles/classes_lib.dir/requires: classes_lib/CMakeFiles/classes_lib.dir/room.c.o.requires
 
 .PHONY : classes_lib/CMakeFiles/classes_lib.dir/requires
 

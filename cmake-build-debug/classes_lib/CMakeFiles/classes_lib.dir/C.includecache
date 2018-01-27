@@ -91,6 +91,8 @@ Image.h
 /home/vukolov/Documents/unit/lem-in/classes_lib/Image.h
 Linked_list.h
 /home/vukolov/Documents/unit/lem-in/classes_lib/Linked_list.h
+room.h
+/home/vukolov/Documents/unit/lem-in/classes_lib/room.h
 
 /home/vukolov/Documents/unit/lem-in/classes_lib/new.c
 stdlib.h
@@ -103,4 +105,18 @@ stddef.h
 -
 stdarg.h
 -
+
+/home/vukolov/Documents/unit/lem-in/classes_lib/room.c
+libft.h
+-
+ft_printf.h
+-
+new.h
+/home/vukolov/Documents/unit/lem-in/classes_lib/new.h
+room.h
+/home/vukolov/Documents/unit/lem-in/classes_lib/room.h
+
+/home/vukolov/Documents/unit/lem-in/classes_lib/room.h
+Linked_list.h
+/home/vukolov/Documents/unit/lem-in/classes_lib/Linked_list.h
 

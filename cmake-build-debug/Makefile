@@ -175,6 +175,33 @@ classes_lib/fast:
 	$(MAKE) -f classes_lib/CMakeFiles/classes_lib.dir/build.make classes_lib/CMakeFiles/classes_lib.dir/build
 .PHONY : classes_lib/fast
 
+src/ft_print_error.o: src/ft_print_error.c.o
+
+.PHONY : src/ft_print_error.o
+
+# target to build an object file
+src/ft_print_error.c.o:
+	$(MAKE) -f CMakeFiles/lem-in.dir/build.make CMakeFiles/lem-in.dir/src/ft_print_error.c.o
+.PHONY : src/ft_print_error.c.o
+
+src/ft_print_error.i: src/ft_print_error.c.i
+
+.PHONY : src/ft_print_error.i
+
+# target to preprocess a source file
+src/ft_print_error.c.i:
+	$(MAKE) -f CMakeFiles/lem-in.dir/build.make CMakeFiles/lem-in.dir/src/ft_print_error.c.i
+.PHONY : src/ft_print_error.c.i
+
+src/ft_print_error.s: src/ft_print_error.c.s
+
+.PHONY : src/ft_print_error.s
+
+# target to generate assembly for a file
+src/ft_print_error.c.s:
+	$(MAKE) -f CMakeFiles/lem-in.dir/build.make CMakeFiles/lem-in.dir/src/ft_print_error.c.s
+.PHONY : src/ft_print_error.c.s
+
 src/main.o: src/main.c.o
 
 .PHONY : src/main.o
@@ -202,6 +229,60 @@ src/main.c.s:
 	$(MAKE) -f CMakeFiles/lem-in.dir/build.make CMakeFiles/lem-in.dir/src/main.c.s
 .PHONY : src/main.c.s
 
+src/parsing.o: src/parsing.c.o
+
+.PHONY : src/parsing.o
+
+# target to build an object file
+src/parsing.c.o:
+	$(MAKE) -f CMakeFiles/lem-in.dir/build.make CMakeFiles/lem-in.dir/src/parsing.c.o
+.PHONY : src/parsing.c.o
+
+src/parsing.i: src/parsing.c.i
+
+.PHONY : src/parsing.i
+
+# target to preprocess a source file
+src/parsing.c.i:
+	$(MAKE) -f CMakeFiles/lem-in.dir/build.make CMakeFiles/lem-in.dir/src/parsing.c.i
+.PHONY : src/parsing.c.i
+
+src/parsing.s: src/parsing.c.s
+
+.PHONY : src/parsing.s
+
+# target to generate assembly for a file
+src/parsing.c.s:
+	$(MAKE) -f CMakeFiles/lem-in.dir/build.make CMakeFiles/lem-in.dir/src/parsing.c.s
+.PHONY : src/parsing.c.s
+
+src/room_lib.o: src/room_lib.c.o
+
+.PHONY : src/room_lib.o
+
+# target to build an object file
+src/room_lib.c.o:
+	$(MAKE) -f CMakeFiles/lem-in.dir/build.make CMakeFiles/lem-in.dir/src/room_lib.c.o
+.PHONY : src/room_lib.c.o
+
+src/room_lib.i: src/room_lib.c.i
+
+.PHONY : src/room_lib.i
+
+# target to preprocess a source file
+src/room_lib.c.i:
+	$(MAKE) -f CMakeFiles/lem-in.dir/build.make CMakeFiles/lem-in.dir/src/room_lib.c.i
+.PHONY : src/room_lib.c.i
+
+src/room_lib.s: src/room_lib.c.s
+
+.PHONY : src/room_lib.s
+
+# target to generate assembly for a file
+src/room_lib.c.s:
+	$(MAKE) -f CMakeFiles/lem-in.dir/build.make CMakeFiles/lem-in.dir/src/room_lib.c.s
+.PHONY : src/room_lib.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -215,9 +296,18 @@ help:
 	@echo "... ft_printf"
 	@echo "... libft"
 	@echo "... classes_lib"
+	@echo "... src/ft_print_error.o"
+	@echo "... src/ft_print_error.i"
+	@echo "... src/ft_print_error.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/parsing.o"
+	@echo "... src/parsing.i"
+	@echo "... src/parsing.s"
+	@echo "... src/room_lib.o"
+	@echo "... src/room_lib.i"
+	@echo "... src/room_lib.s"
 .PHONY : help
 
 

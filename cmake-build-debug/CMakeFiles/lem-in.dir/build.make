@@ -81,21 +81,99 @@ CMakeFiles/lem-in.dir/src/main.c.o.provides: CMakeFiles/lem-in.dir/src/main.c.o.
 CMakeFiles/lem-in.dir/src/main.c.o.provides.build: CMakeFiles/lem-in.dir/src/main.c.o
 
 
+CMakeFiles/lem-in.dir/src/room_lib.c.o: CMakeFiles/lem-in.dir/flags.make
+CMakeFiles/lem-in.dir/src/room_lib.c.o: ../src/room_lib.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/lem-in.dir/src/room_lib.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem-in.dir/src/room_lib.c.o   -c /home/vukolov/Documents/unit/lem-in/src/room_lib.c
+
+CMakeFiles/lem-in.dir/src/room_lib.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem-in.dir/src/room_lib.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/lem-in/src/room_lib.c > CMakeFiles/lem-in.dir/src/room_lib.c.i
+
+CMakeFiles/lem-in.dir/src/room_lib.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem-in.dir/src/room_lib.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/lem-in/src/room_lib.c -o CMakeFiles/lem-in.dir/src/room_lib.c.s
+
+CMakeFiles/lem-in.dir/src/room_lib.c.o.requires:
+
+.PHONY : CMakeFiles/lem-in.dir/src/room_lib.c.o.requires
+
+CMakeFiles/lem-in.dir/src/room_lib.c.o.provides: CMakeFiles/lem-in.dir/src/room_lib.c.o.requires
+	$(MAKE) -f CMakeFiles/lem-in.dir/build.make CMakeFiles/lem-in.dir/src/room_lib.c.o.provides.build
+.PHONY : CMakeFiles/lem-in.dir/src/room_lib.c.o.provides
+
+CMakeFiles/lem-in.dir/src/room_lib.c.o.provides.build: CMakeFiles/lem-in.dir/src/room_lib.c.o
+
+
+CMakeFiles/lem-in.dir/src/ft_print_error.c.o: CMakeFiles/lem-in.dir/flags.make
+CMakeFiles/lem-in.dir/src/ft_print_error.c.o: ../src/ft_print_error.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/lem-in.dir/src/ft_print_error.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem-in.dir/src/ft_print_error.c.o   -c /home/vukolov/Documents/unit/lem-in/src/ft_print_error.c
+
+CMakeFiles/lem-in.dir/src/ft_print_error.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem-in.dir/src/ft_print_error.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/lem-in/src/ft_print_error.c > CMakeFiles/lem-in.dir/src/ft_print_error.c.i
+
+CMakeFiles/lem-in.dir/src/ft_print_error.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem-in.dir/src/ft_print_error.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/lem-in/src/ft_print_error.c -o CMakeFiles/lem-in.dir/src/ft_print_error.c.s
+
+CMakeFiles/lem-in.dir/src/ft_print_error.c.o.requires:
+
+.PHONY : CMakeFiles/lem-in.dir/src/ft_print_error.c.o.requires
+
+CMakeFiles/lem-in.dir/src/ft_print_error.c.o.provides: CMakeFiles/lem-in.dir/src/ft_print_error.c.o.requires
+	$(MAKE) -f CMakeFiles/lem-in.dir/build.make CMakeFiles/lem-in.dir/src/ft_print_error.c.o.provides.build
+.PHONY : CMakeFiles/lem-in.dir/src/ft_print_error.c.o.provides
+
+CMakeFiles/lem-in.dir/src/ft_print_error.c.o.provides.build: CMakeFiles/lem-in.dir/src/ft_print_error.c.o
+
+
+CMakeFiles/lem-in.dir/src/parsing.c.o: CMakeFiles/lem-in.dir/flags.make
+CMakeFiles/lem-in.dir/src/parsing.c.o: ../src/parsing.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/lem-in.dir/src/parsing.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem-in.dir/src/parsing.c.o   -c /home/vukolov/Documents/unit/lem-in/src/parsing.c
+
+CMakeFiles/lem-in.dir/src/parsing.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem-in.dir/src/parsing.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/lem-in/src/parsing.c > CMakeFiles/lem-in.dir/src/parsing.c.i
+
+CMakeFiles/lem-in.dir/src/parsing.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem-in.dir/src/parsing.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/lem-in/src/parsing.c -o CMakeFiles/lem-in.dir/src/parsing.c.s
+
+CMakeFiles/lem-in.dir/src/parsing.c.o.requires:
+
+.PHONY : CMakeFiles/lem-in.dir/src/parsing.c.o.requires
+
+CMakeFiles/lem-in.dir/src/parsing.c.o.provides: CMakeFiles/lem-in.dir/src/parsing.c.o.requires
+	$(MAKE) -f CMakeFiles/lem-in.dir/build.make CMakeFiles/lem-in.dir/src/parsing.c.o.provides.build
+.PHONY : CMakeFiles/lem-in.dir/src/parsing.c.o.provides
+
+CMakeFiles/lem-in.dir/src/parsing.c.o.provides.build: CMakeFiles/lem-in.dir/src/parsing.c.o
+
+
 # Object files for target lem-in
 lem__in_OBJECTS = \
-"CMakeFiles/lem-in.dir/src/main.c.o"
+"CMakeFiles/lem-in.dir/src/main.c.o" \
+"CMakeFiles/lem-in.dir/src/room_lib.c.o" \
+"CMakeFiles/lem-in.dir/src/ft_print_error.c.o" \
+"CMakeFiles/lem-in.dir/src/parsing.c.o"
 
 # External object files for target lem-in
 lem__in_EXTERNAL_OBJECTS =
 
 lem-in: CMakeFiles/lem-in.dir/src/main.c.o
+lem-in: CMakeFiles/lem-in.dir/src/room_lib.c.o
+lem-in: CMakeFiles/lem-in.dir/src/ft_print_error.c.o
+lem-in: CMakeFiles/lem-in.dir/src/parsing.c.o
 lem-in: CMakeFiles/lem-in.dir/build.make
 lem-in: classes_lib/libclasses_lib.a
 lem-in: libft/liblibft.a.a
 lem-in: libft/ft_printf/libft_printf.a
 lem-in: libft/ft_printf/libftprintf/liblibft.a
 lem-in: CMakeFiles/lem-in.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vukolov/Documents/unit/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable lem-in"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vukolov/Documents/unit/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable lem-in"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lem-in.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -104,6 +182,9 @@ CMakeFiles/lem-in.dir/build: lem-in
 .PHONY : CMakeFiles/lem-in.dir/build
 
 CMakeFiles/lem-in.dir/requires: CMakeFiles/lem-in.dir/src/main.c.o.requires
+CMakeFiles/lem-in.dir/requires: CMakeFiles/lem-in.dir/src/room_lib.c.o.requires
+CMakeFiles/lem-in.dir/requires: CMakeFiles/lem-in.dir/src/ft_print_error.c.o.requires
+CMakeFiles/lem-in.dir/requires: CMakeFiles/lem-in.dir/src/parsing.c.o.requires
 
 .PHONY : CMakeFiles/lem-in.dir/requires
 

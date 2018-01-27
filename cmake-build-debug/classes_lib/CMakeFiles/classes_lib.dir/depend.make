@@ -34,7 +34,15 @@ classes_lib/CMakeFiles/classes_lib.dir/init_classes.c.o: ../classes_lib/MLXConn.
 classes_lib/CMakeFiles/classes_lib.dir/init_classes.c.o: ../classes_lib/Point.h
 classes_lib/CMakeFiles/classes_lib.dir/init_classes.c.o: ../classes_lib/String.h
 classes_lib/CMakeFiles/classes_lib.dir/init_classes.c.o: ../classes_lib/init_classes.c
+classes_lib/CMakeFiles/classes_lib.dir/init_classes.c.o: ../classes_lib/room.h
 
 classes_lib/CMakeFiles/classes_lib.dir/new.c.o: ../classes_lib/new.c
 classes_lib/CMakeFiles/classes_lib.dir/new.c.o: ../classes_lib/new.h
+
+classes_lib/CMakeFiles/classes_lib.dir/room.c.o: ../classes_lib/../libft/includes/ft_printf.h
+classes_lib/CMakeFiles/classes_lib.dir/room.c.o: ../classes_lib/../libft/includes/libft.h
+classes_lib/CMakeFiles/classes_lib.dir/room.c.o: ../classes_lib/Linked_list.h
+classes_lib/CMakeFiles/classes_lib.dir/room.c.o: ../classes_lib/new.h
+classes_lib/CMakeFiles/classes_lib.dir/room.c.o: ../classes_lib/room.c
+classes_lib/CMakeFiles/classes_lib.dir/room.c.o: ../classes_lib/room.h
 

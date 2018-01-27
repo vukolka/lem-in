@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/vukolov/Documents/unit/lem-in/classes_lib/String.c" "/home/vukolov/Documents/unit/lem-in/cmake-build-debug/classes_lib/CMakeFiles/classes_lib.dir/String.c.o"
   "/home/vukolov/Documents/unit/lem-in/classes_lib/init_classes.c" "/home/vukolov/Documents/unit/lem-in/cmake-build-debug/classes_lib/CMakeFiles/classes_lib.dir/init_classes.c.o"
   "/home/vukolov/Documents/unit/lem-in/classes_lib/new.c" "/home/vukolov/Documents/unit/lem-in/cmake-build-debug/classes_lib/CMakeFiles/classes_lib.dir/new.c.o"
+  "/home/vukolov/Documents/unit/lem-in/classes_lib/room.c" "/home/vukolov/Documents/unit/lem-in/cmake-build-debug/classes_lib/CMakeFiles/classes_lib.dir/room.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

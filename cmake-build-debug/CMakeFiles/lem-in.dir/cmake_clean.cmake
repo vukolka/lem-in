@@ -1,5 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lem-in.dir/src/main.c.o"
+  "CMakeFiles/lem-in.dir/src/room_lib.c.o"
+  "CMakeFiles/lem-in.dir/src/ft_print_error.c.o"
+  "CMakeFiles/lem-in.dir/src/parsing.c.o"
   "lem-in.pdb"
   "lem-in"
 )

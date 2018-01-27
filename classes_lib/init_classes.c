@@ -3,6 +3,7 @@
 #include "MLXConn.h"
 #include "Image.h"
 #include "Linked_list.h"
+#include "room.h"
 
 void 	make_classes()
 {
@@ -11,4 +12,5 @@ void 	make_classes()
 	point_init();
 	mlx_initiate();
 	init_image();
+	room_init();
 }
