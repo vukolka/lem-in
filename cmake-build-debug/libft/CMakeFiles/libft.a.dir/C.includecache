@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../libft/includes/libft.h
+string.h
+-
+stdlib.h
+-
+unistd.h
+-
+stdarg.h
+-
+
+/home/vukolov/Documents/unit/lem-in/libft/get_next_line/get_next_line.c
+get_next_line.h
+/home/vukolov/Documents/unit/lem-in/libft/get_next_line/get_next_line.h
+libft.h
+/home/vukolov/Documents/unit/lem-in/libft/get_next_line/libft.h
+stdio.h
+-
+
+/home/vukolov/Documents/unit/lem-in/libft/get_next_line/get_next_line.h
+sys/types.h
+-
+sys/uio.h
+-
+fcntl.h
+-
+unistd.h
+-
+stdlib.h
+-
+string.h
+-
+

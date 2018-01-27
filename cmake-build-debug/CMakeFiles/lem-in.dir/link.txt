@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/lem-in.dir/src/main.c.o  -o lem-in classes_lib/libclasses_lib.a libft/liblibft.a.a -L/home/vukolov/Documents/unit/lem-in/libmlx -lm -L/home/vukolov/Documents/unit/lem-in/classes_lib/libmlx -lmlx -lX11 -lXext libft/ft_printf/libft_printf.a libft/ft_printf/libftprintf/liblibft.a 

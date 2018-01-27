@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../classes_lib/MLXConn.h
+
+../classes_lib/classes_lib.h
+
+../classes_lib/new.h
+stddef.h
+-
+stdarg.h
+-
+
+/home/vukolov/Documents/unit/lem-in/src/main.c
+stdio.h
+-
+classes_lib.h
+-
+new.h
+-
+MLXConn.h
+-
+
