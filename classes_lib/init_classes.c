@@ -4,6 +4,7 @@
 #include "Image.h"
 #include "Linked_list.h"
 #include "room.h"
+#include "ant.h"
 
 void 	make_classes()
 {
@@ -13,4 +14,5 @@ void 	make_classes()
 	mlx_initiate();
 	init_image();
 	room_init();
+	ant_init();
 }

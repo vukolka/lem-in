@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/lem-in.dir/src/room_lib.c.o"
   "CMakeFiles/lem-in.dir/src/ft_print_error.c.o"
   "CMakeFiles/lem-in.dir/src/parsing.c.o"
+  "CMakeFiles/lem-in.dir/src/parsing_helper.c.o"
+  "CMakeFiles/lem-in.dir/src/get_solutions.c.o"
   "lem-in.pdb"
   "lem-in"
 )

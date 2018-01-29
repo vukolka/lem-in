@@ -31,6 +31,7 @@ static size_t	process_result(const char *format, va_list ap, char **res)
 			i = apply_format(&format, &temp, ap);
 			*res = ft_conncat(*res, temp, total_len, i);
 			total_len += i;
+			free(temp);
 			i = 0;
 		}
 		else

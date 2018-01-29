@@ -30,6 +30,21 @@ void			llst_add(void **s_self, void *s_new)
 		*s_self = new;
 }
 
+void			*llst_find(const void *s_self, const void *info,
+						   int(*f)(const void *, const void *))
+{
+	const t_llist *self;
+
+	self = s_self;
+	while (self)
+	{
+		if (f(self->content, info))
+			return (self->content);
+		self = self->next;
+	}
+	return (NULL);
+}
+
 void			llist_init()
 {
 	hidden_list.size = sizeof(t_llist);

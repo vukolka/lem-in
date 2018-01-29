@@ -260,6 +260,33 @@ String.c.s:
 	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f classes_lib/CMakeFiles/classes_lib.dir/build.make classes_lib/CMakeFiles/classes_lib.dir/String.c.s
 .PHONY : String.c.s
 
+ant.o: ant.c.o
+
+.PHONY : ant.o
+
+# target to build an object file
+ant.c.o:
+	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f classes_lib/CMakeFiles/classes_lib.dir/build.make classes_lib/CMakeFiles/classes_lib.dir/ant.c.o
+.PHONY : ant.c.o
+
+ant.i: ant.c.i
+
+.PHONY : ant.i
+
+# target to preprocess a source file
+ant.c.i:
+	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f classes_lib/CMakeFiles/classes_lib.dir/build.make classes_lib/CMakeFiles/classes_lib.dir/ant.c.i
+.PHONY : ant.c.i
+
+ant.s: ant.c.s
+
+.PHONY : ant.s
+
+# target to generate assembly for a file
+ant.c.s:
+	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f classes_lib/CMakeFiles/classes_lib.dir/build.make classes_lib/CMakeFiles/classes_lib.dir/ant.c.s
+.PHONY : ant.c.s
+
 init_classes.o: init_classes.c.o
 
 .PHONY : init_classes.o
@@ -365,6 +392,9 @@ help:
 	@echo "... String.o"
 	@echo "... String.i"
 	@echo "... String.s"
+	@echo "... ant.o"
+	@echo "... ant.i"
+	@echo "... ant.s"
 	@echo "... init_classes.o"
 	@echo "... init_classes.i"
 	@echo "... init_classes.s"

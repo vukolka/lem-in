@@ -202,6 +202,33 @@ src/ft_print_error.c.s:
 	$(MAKE) -f CMakeFiles/lem-in.dir/build.make CMakeFiles/lem-in.dir/src/ft_print_error.c.s
 .PHONY : src/ft_print_error.c.s
 
+src/get_solutions.o: src/get_solutions.c.o
+
+.PHONY : src/get_solutions.o
+
+# target to build an object file
+src/get_solutions.c.o:
+	$(MAKE) -f CMakeFiles/lem-in.dir/build.make CMakeFiles/lem-in.dir/src/get_solutions.c.o
+.PHONY : src/get_solutions.c.o
+
+src/get_solutions.i: src/get_solutions.c.i
+
+.PHONY : src/get_solutions.i
+
+# target to preprocess a source file
+src/get_solutions.c.i:
+	$(MAKE) -f CMakeFiles/lem-in.dir/build.make CMakeFiles/lem-in.dir/src/get_solutions.c.i
+.PHONY : src/get_solutions.c.i
+
+src/get_solutions.s: src/get_solutions.c.s
+
+.PHONY : src/get_solutions.s
+
+# target to generate assembly for a file
+src/get_solutions.c.s:
+	$(MAKE) -f CMakeFiles/lem-in.dir/build.make CMakeFiles/lem-in.dir/src/get_solutions.c.s
+.PHONY : src/get_solutions.c.s
+
 src/main.o: src/main.c.o
 
 .PHONY : src/main.o
@@ -256,6 +283,33 @@ src/parsing.c.s:
 	$(MAKE) -f CMakeFiles/lem-in.dir/build.make CMakeFiles/lem-in.dir/src/parsing.c.s
 .PHONY : src/parsing.c.s
 
+src/parsing_helper.o: src/parsing_helper.c.o
+
+.PHONY : src/parsing_helper.o
+
+# target to build an object file
+src/parsing_helper.c.o:
+	$(MAKE) -f CMakeFiles/lem-in.dir/build.make CMakeFiles/lem-in.dir/src/parsing_helper.c.o
+.PHONY : src/parsing_helper.c.o
+
+src/parsing_helper.i: src/parsing_helper.c.i
+
+.PHONY : src/parsing_helper.i
+
+# target to preprocess a source file
+src/parsing_helper.c.i:
+	$(MAKE) -f CMakeFiles/lem-in.dir/build.make CMakeFiles/lem-in.dir/src/parsing_helper.c.i
+.PHONY : src/parsing_helper.c.i
+
+src/parsing_helper.s: src/parsing_helper.c.s
+
+.PHONY : src/parsing_helper.s
+
+# target to generate assembly for a file
+src/parsing_helper.c.s:
+	$(MAKE) -f CMakeFiles/lem-in.dir/build.make CMakeFiles/lem-in.dir/src/parsing_helper.c.s
+.PHONY : src/parsing_helper.c.s
+
 src/room_lib.o: src/room_lib.c.o
 
 .PHONY : src/room_lib.o
@@ -299,12 +353,18 @@ help:
 	@echo "... src/ft_print_error.o"
 	@echo "... src/ft_print_error.i"
 	@echo "... src/ft_print_error.s"
+	@echo "... src/get_solutions.o"
+	@echo "... src/get_solutions.i"
+	@echo "... src/get_solutions.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
 	@echo "... src/parsing.o"
 	@echo "... src/parsing.i"
 	@echo "... src/parsing.s"
+	@echo "... src/parsing_helper.o"
+	@echo "... src/parsing_helper.i"
+	@echo "... src/parsing_helper.s"
 	@echo "... src/room_lib.o"
 	@echo "... src/room_lib.i"
 	@echo "... src/room_lib.s"

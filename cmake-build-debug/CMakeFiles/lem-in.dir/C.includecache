@@ -10,6 +10,8 @@
 
 ../classes_lib/MLXConn.h
 
+../classes_lib/ant.h
+
 ../classes_lib/classes_lib.h
 
 ../classes_lib/new.h
@@ -30,6 +32,20 @@ stdio.h
 libft.h
 ../libft/includes/libft.h
 
+../libft/includes/get_next_line.h
+sys/types.h
+-
+sys/uio.h
+-
+fcntl.h
+-
+unistd.h
+-
+stdlib.h
+-
+string.h
+-
+
 ../libft/includes/libft.h
 string.h
 -
@@ -40,7 +56,15 @@ unistd.h
 stdarg.h
 -
 
-/home/vukolov/Documents/unit/lem-in/src/ant.h
+/home/vukolov/Documents/unit/lem-in/src/ft_print_error.c
+ft_printf.h
+-
+lemin.h
+/home/vukolov/Documents/unit/lem-in/src/lemin.h
+
+/home/vukolov/Documents/unit/lem-in/src/lemin.h
+Linked_list.h
+-
 
 /home/vukolov/Documents/unit/lem-in/src/main.c
 stdio.h
@@ -55,10 +79,40 @@ room.h
 -
 ft_printf.h
 -
+lemin.h
+/home/vukolov/Documents/unit/lem-in/src/lemin.h
+
+/home/vukolov/Documents/unit/lem-in/src/parsing.c
+wchar.h
+-
+fcntl.h
+-
+get_next_line.h
+-
+libft.h
+-
+new.h
+-
+room.h
+-
+lemin.h
+/home/vukolov/Documents/unit/lem-in/src/lemin.h
+
+/home/vukolov/Documents/unit/lem-in/src/parsing_helper.c
+string.h
+-
+new.h
+-
 ant.h
-/home/vukolov/Documents/unit/lem-in/src/ant.h
+-
+Linked_list.h
+-
+lemin.h
+/home/vukolov/Documents/unit/lem-in/src/lemin.h
 
 /home/vukolov/Documents/unit/lem-in/src/room_lib.c
 room.h
+-
+libft.h
 -
 

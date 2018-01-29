@@ -16,7 +16,9 @@ set(SOURCE_FILES
         Linked_list.c
         Linked_list.h
         room.c
-        room.h)
+        room.h
+        ant.c
+        ant.h)
 include_directories(../libft/includes)
 
 include_directories(libmlx)

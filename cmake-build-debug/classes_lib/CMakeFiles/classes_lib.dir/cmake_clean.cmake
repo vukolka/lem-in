@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/classes_lib.dir/Image.c.o"
   "CMakeFiles/classes_lib.dir/Linked_list.c.o"
   "CMakeFiles/classes_lib.dir/room.c.o"
+  "CMakeFiles/classes_lib.dir/ant.c.o"
   "libclasses_lib.pdb"
   "libclasses_lib.a"
 )

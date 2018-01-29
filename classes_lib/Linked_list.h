@@ -11,4 +11,7 @@ typedef struct		s_llist
 	struct s_llist	*next;
 }					t_llist;
 
-#endif //FDF_LINKED_LIST_H
+void				*llst_find(const void *s_self, const void *info,
+							   int(*f)(const void *, const void *));
+
+#endif

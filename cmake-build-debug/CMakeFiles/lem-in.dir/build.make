@@ -153,12 +153,62 @@ CMakeFiles/lem-in.dir/src/parsing.c.o.provides: CMakeFiles/lem-in.dir/src/parsin
 CMakeFiles/lem-in.dir/src/parsing.c.o.provides.build: CMakeFiles/lem-in.dir/src/parsing.c.o
 
 
+CMakeFiles/lem-in.dir/src/parsing_helper.c.o: CMakeFiles/lem-in.dir/flags.make
+CMakeFiles/lem-in.dir/src/parsing_helper.c.o: ../src/parsing_helper.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/lem-in.dir/src/parsing_helper.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem-in.dir/src/parsing_helper.c.o   -c /home/vukolov/Documents/unit/lem-in/src/parsing_helper.c
+
+CMakeFiles/lem-in.dir/src/parsing_helper.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem-in.dir/src/parsing_helper.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/lem-in/src/parsing_helper.c > CMakeFiles/lem-in.dir/src/parsing_helper.c.i
+
+CMakeFiles/lem-in.dir/src/parsing_helper.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem-in.dir/src/parsing_helper.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/lem-in/src/parsing_helper.c -o CMakeFiles/lem-in.dir/src/parsing_helper.c.s
+
+CMakeFiles/lem-in.dir/src/parsing_helper.c.o.requires:
+
+.PHONY : CMakeFiles/lem-in.dir/src/parsing_helper.c.o.requires
+
+CMakeFiles/lem-in.dir/src/parsing_helper.c.o.provides: CMakeFiles/lem-in.dir/src/parsing_helper.c.o.requires
+	$(MAKE) -f CMakeFiles/lem-in.dir/build.make CMakeFiles/lem-in.dir/src/parsing_helper.c.o.provides.build
+.PHONY : CMakeFiles/lem-in.dir/src/parsing_helper.c.o.provides
+
+CMakeFiles/lem-in.dir/src/parsing_helper.c.o.provides.build: CMakeFiles/lem-in.dir/src/parsing_helper.c.o
+
+
+CMakeFiles/lem-in.dir/src/get_solutions.c.o: CMakeFiles/lem-in.dir/flags.make
+CMakeFiles/lem-in.dir/src/get_solutions.c.o: ../src/get_solutions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/lem-in.dir/src/get_solutions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem-in.dir/src/get_solutions.c.o   -c /home/vukolov/Documents/unit/lem-in/src/get_solutions.c
+
+CMakeFiles/lem-in.dir/src/get_solutions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem-in.dir/src/get_solutions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/lem-in/src/get_solutions.c > CMakeFiles/lem-in.dir/src/get_solutions.c.i
+
+CMakeFiles/lem-in.dir/src/get_solutions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem-in.dir/src/get_solutions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/lem-in/src/get_solutions.c -o CMakeFiles/lem-in.dir/src/get_solutions.c.s
+
+CMakeFiles/lem-in.dir/src/get_solutions.c.o.requires:
+
+.PHONY : CMakeFiles/lem-in.dir/src/get_solutions.c.o.requires
+
+CMakeFiles/lem-in.dir/src/get_solutions.c.o.provides: CMakeFiles/lem-in.dir/src/get_solutions.c.o.requires
+	$(MAKE) -f CMakeFiles/lem-in.dir/build.make CMakeFiles/lem-in.dir/src/get_solutions.c.o.provides.build
+.PHONY : CMakeFiles/lem-in.dir/src/get_solutions.c.o.provides
+
+CMakeFiles/lem-in.dir/src/get_solutions.c.o.provides.build: CMakeFiles/lem-in.dir/src/get_solutions.c.o
+
+
 # Object files for target lem-in
 lem__in_OBJECTS = \
 "CMakeFiles/lem-in.dir/src/main.c.o" \
 "CMakeFiles/lem-in.dir/src/room_lib.c.o" \
 "CMakeFiles/lem-in.dir/src/ft_print_error.c.o" \
-"CMakeFiles/lem-in.dir/src/parsing.c.o"
+"CMakeFiles/lem-in.dir/src/parsing.c.o" \
+"CMakeFiles/lem-in.dir/src/parsing_helper.c.o" \
+"CMakeFiles/lem-in.dir/src/get_solutions.c.o"
 
 # External object files for target lem-in
 lem__in_EXTERNAL_OBJECTS =
@@ -167,13 +217,15 @@ lem-in: CMakeFiles/lem-in.dir/src/main.c.o
 lem-in: CMakeFiles/lem-in.dir/src/room_lib.c.o
 lem-in: CMakeFiles/lem-in.dir/src/ft_print_error.c.o
 lem-in: CMakeFiles/lem-in.dir/src/parsing.c.o
+lem-in: CMakeFiles/lem-in.dir/src/parsing_helper.c.o
+lem-in: CMakeFiles/lem-in.dir/src/get_solutions.c.o
 lem-in: CMakeFiles/lem-in.dir/build.make
 lem-in: classes_lib/libclasses_lib.a
 lem-in: libft/liblibft.a.a
 lem-in: libft/ft_printf/libft_printf.a
 lem-in: libft/ft_printf/libftprintf/liblibft.a
 lem-in: CMakeFiles/lem-in.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vukolov/Documents/unit/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable lem-in"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vukolov/Documents/unit/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable lem-in"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lem-in.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -185,6 +237,8 @@ CMakeFiles/lem-in.dir/requires: CMakeFiles/lem-in.dir/src/main.c.o.requires
 CMakeFiles/lem-in.dir/requires: CMakeFiles/lem-in.dir/src/room_lib.c.o.requires
 CMakeFiles/lem-in.dir/requires: CMakeFiles/lem-in.dir/src/ft_print_error.c.o.requires
 CMakeFiles/lem-in.dir/requires: CMakeFiles/lem-in.dir/src/parsing.c.o.requires
+CMakeFiles/lem-in.dir/requires: CMakeFiles/lem-in.dir/src/parsing_helper.c.o.requires
+CMakeFiles/lem-in.dir/requires: CMakeFiles/lem-in.dir/src/get_solutions.c.o.requires
 
 .PHONY : CMakeFiles/lem-in.dir/requires
 

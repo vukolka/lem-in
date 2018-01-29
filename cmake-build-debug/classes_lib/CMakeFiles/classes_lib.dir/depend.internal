@@ -28,12 +28,17 @@ classes_lib/CMakeFiles/classes_lib.dir/String.c.o
  /home/vukolov/Documents/unit/lem-in/classes_lib/String.c
  /home/vukolov/Documents/unit/lem-in/classes_lib/String.h
  /home/vukolov/Documents/unit/lem-in/classes_lib/new.h
+classes_lib/CMakeFiles/classes_lib.dir/ant.c.o
+ /home/vukolov/Documents/unit/lem-in/classes_lib/ant.c
+ /home/vukolov/Documents/unit/lem-in/classes_lib/ant.h
+ /home/vukolov/Documents/unit/lem-in/classes_lib/new.h
 classes_lib/CMakeFiles/classes_lib.dir/init_classes.c.o
  /home/vukolov/Documents/unit/lem-in/classes_lib/Image.h
  /home/vukolov/Documents/unit/lem-in/classes_lib/Linked_list.h
  /home/vukolov/Documents/unit/lem-in/classes_lib/MLXConn.h
  /home/vukolov/Documents/unit/lem-in/classes_lib/Point.h
  /home/vukolov/Documents/unit/lem-in/classes_lib/String.h
+ /home/vukolov/Documents/unit/lem-in/classes_lib/ant.h
  /home/vukolov/Documents/unit/lem-in/classes_lib/init_classes.c
  /home/vukolov/Documents/unit/lem-in/classes_lib/room.h
 classes_lib/CMakeFiles/classes_lib.dir/new.c.o

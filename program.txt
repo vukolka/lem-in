@@ -25,3 +25,21 @@ int	is_empty(room)
 returns 1 if empty, 0 if not
 3. void print_move(dest, src, ant)
 prints move to stdout
+
+||||| SOLUTION |||||
+First, find all possible solutions and sort by steps ammount required in accending order.
+Step up with every ant towards the best possible solution
+for every ant
+{
+	for every solution
+	{
+		find ant's position in solution.
+		try to move forward through solution
+		if move is possible
+			put the move on stack
+			move ant forward
+			break;
+		else
+			continue ; 
+	}
+}
