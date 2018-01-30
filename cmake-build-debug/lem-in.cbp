@@ -318,9 +318,6 @@
 		<Unit filename="/home/vukolov/Documents/unit/lem-in/classes_lib/String.h">
 			<Option target="classes_lib"/>
 		</Unit>
-		<Unit filename="/home/vukolov/Documents/unit/lem-in/classes_lib/ant.c">
-			<Option target="classes_lib"/>
-		</Unit>
 		<Unit filename="/home/vukolov/Documents/unit/lem-in/classes_lib/ant.h">
 			<Option target="classes_lib"/>
 		</Unit>
@@ -334,6 +331,12 @@
 			<Option target="classes_lib"/>
 		</Unit>
 		<Unit filename="/home/vukolov/Documents/unit/lem-in/classes_lib/new.h">
+			<Option target="classes_lib"/>
+		</Unit>
+		<Unit filename="/home/vukolov/Documents/unit/lem-in/classes_lib/queue.c">
+			<Option target="classes_lib"/>
+		</Unit>
+		<Unit filename="/home/vukolov/Documents/unit/lem-in/classes_lib/queue.h">
 			<Option target="classes_lib"/>
 		</Unit>
 		<Unit filename="/home/vukolov/Documents/unit/lem-in/classes_lib/room.c">
@@ -606,13 +609,13 @@
 		<Unit filename="/home/vukolov/Documents/unit/lem-in/src/ft_print_error.c">
 			<Option target="lem-in"/>
 		</Unit>
-		<Unit filename="/home/vukolov/Documents/unit/lem-in/src/get_solutions.c">
-			<Option target="lem-in"/>
-		</Unit>
 		<Unit filename="/home/vukolov/Documents/unit/lem-in/src/lemin.h">
 			<Option target="lem-in"/>
 		</Unit>
 		<Unit filename="/home/vukolov/Documents/unit/lem-in/src/main.c">
+			<Option target="lem-in"/>
+		</Unit>
+		<Unit filename="/home/vukolov/Documents/unit/lem-in/src/mark_map.c">
 			<Option target="lem-in"/>
 		</Unit>
 		<Unit filename="/home/vukolov/Documents/unit/lem-in/src/parsing.c">

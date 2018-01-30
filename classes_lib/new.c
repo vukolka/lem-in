@@ -21,11 +21,11 @@ void	*new(const void *s_class, ...)
 
 void	delete(void *self)
 {
-	const t_class **temp;
+	const t_class *temp;
 
-	temp = (const t_class **)self;
-	if (self && (*temp)->dtor)
-		self = (*temp)->dtor(self);
+	temp = *(const t_class **)self;
+	if (self && temp->dtor)
+		self = temp->dtor(self);
 	free(self);
 }
 

@@ -221,6 +221,5 @@ void			parse_map(char *file_name, t_env *env)
 	fd = open(file_name, O_RDONLY);
 	env->total_ants = get_ants(fd);
 	get_map_list(fd, env);
-	make_ants_list(env);
 	close(fd);
 }

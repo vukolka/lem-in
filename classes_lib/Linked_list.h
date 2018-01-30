@@ -7,6 +7,7 @@ void				llst_add(void **s_self, void *s_new);
 
 typedef struct		s_llist
 {
+	void			*class;
 	void			*content;
 	struct s_llist	*next;
 }					t_llist;

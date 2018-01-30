@@ -10,8 +10,6 @@
 
 ../classes_lib/MLXConn.h
 
-../classes_lib/ant.h
-
 ../classes_lib/classes_lib.h
 
 ../classes_lib/new.h
@@ -19,6 +17,8 @@ stddef.h
 -
 stdarg.h
 -
+
+../classes_lib/queue.h
 
 ../classes_lib/room.h
 Linked_list.h
@@ -82,6 +82,18 @@ ft_printf.h
 lemin.h
 /home/vukolov/Documents/unit/lem-in/src/lemin.h
 
+/home/vukolov/Documents/unit/lem-in/src/mark_map.c
+queue.h
+-
+new.h
+-
+ft_printf.h
+-
+room.h
+-
+lemin.h
+/home/vukolov/Documents/unit/lem-in/src/lemin.h
+
 /home/vukolov/Documents/unit/lem-in/src/parsing.c
 wchar.h
 -
@@ -99,16 +111,6 @@ lemin.h
 /home/vukolov/Documents/unit/lem-in/src/lemin.h
 
 /home/vukolov/Documents/unit/lem-in/src/parsing_helper.c
-string.h
--
-new.h
--
-ant.h
--
-Linked_list.h
--
-lemin.h
-/home/vukolov/Documents/unit/lem-in/src/lemin.h
 
 /home/vukolov/Documents/unit/lem-in/src/room_lib.c
 room.h

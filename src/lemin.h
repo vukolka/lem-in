@@ -18,6 +18,13 @@ typedef struct	s_env
 	void		*ants;
 }				t_env;
 
+typedef struct	s_ant
+{
+	int 		id;
+	void		*room;
+}				t_ant;
+
+void			mark_map(t_env *env);
 void			make_ants_list(t_env *env);
 void			parse_map(char *file_name, t_env *env);
 void 			ft_print_error(int error);

@@ -202,33 +202,6 @@ src/ft_print_error.c.s:
 	$(MAKE) -f CMakeFiles/lem-in.dir/build.make CMakeFiles/lem-in.dir/src/ft_print_error.c.s
 .PHONY : src/ft_print_error.c.s
 
-src/get_solutions.o: src/get_solutions.c.o
-
-.PHONY : src/get_solutions.o
-
-# target to build an object file
-src/get_solutions.c.o:
-	$(MAKE) -f CMakeFiles/lem-in.dir/build.make CMakeFiles/lem-in.dir/src/get_solutions.c.o
-.PHONY : src/get_solutions.c.o
-
-src/get_solutions.i: src/get_solutions.c.i
-
-.PHONY : src/get_solutions.i
-
-# target to preprocess a source file
-src/get_solutions.c.i:
-	$(MAKE) -f CMakeFiles/lem-in.dir/build.make CMakeFiles/lem-in.dir/src/get_solutions.c.i
-.PHONY : src/get_solutions.c.i
-
-src/get_solutions.s: src/get_solutions.c.s
-
-.PHONY : src/get_solutions.s
-
-# target to generate assembly for a file
-src/get_solutions.c.s:
-	$(MAKE) -f CMakeFiles/lem-in.dir/build.make CMakeFiles/lem-in.dir/src/get_solutions.c.s
-.PHONY : src/get_solutions.c.s
-
 src/main.o: src/main.c.o
 
 .PHONY : src/main.o
@@ -255,6 +228,33 @@ src/main.s: src/main.c.s
 src/main.c.s:
 	$(MAKE) -f CMakeFiles/lem-in.dir/build.make CMakeFiles/lem-in.dir/src/main.c.s
 .PHONY : src/main.c.s
+
+src/mark_map.o: src/mark_map.c.o
+
+.PHONY : src/mark_map.o
+
+# target to build an object file
+src/mark_map.c.o:
+	$(MAKE) -f CMakeFiles/lem-in.dir/build.make CMakeFiles/lem-in.dir/src/mark_map.c.o
+.PHONY : src/mark_map.c.o
+
+src/mark_map.i: src/mark_map.c.i
+
+.PHONY : src/mark_map.i
+
+# target to preprocess a source file
+src/mark_map.c.i:
+	$(MAKE) -f CMakeFiles/lem-in.dir/build.make CMakeFiles/lem-in.dir/src/mark_map.c.i
+.PHONY : src/mark_map.c.i
+
+src/mark_map.s: src/mark_map.c.s
+
+.PHONY : src/mark_map.s
+
+# target to generate assembly for a file
+src/mark_map.c.s:
+	$(MAKE) -f CMakeFiles/lem-in.dir/build.make CMakeFiles/lem-in.dir/src/mark_map.c.s
+.PHONY : src/mark_map.c.s
 
 src/parsing.o: src/parsing.c.o
 
@@ -353,12 +353,12 @@ help:
 	@echo "... src/ft_print_error.o"
 	@echo "... src/ft_print_error.i"
 	@echo "... src/ft_print_error.s"
-	@echo "... src/get_solutions.o"
-	@echo "... src/get_solutions.i"
-	@echo "... src/get_solutions.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/mark_map.o"
+	@echo "... src/mark_map.i"
+	@echo "... src/mark_map.s"
 	@echo "... src/parsing.o"
 	@echo "... src/parsing.i"
 	@echo "... src/parsing.s"

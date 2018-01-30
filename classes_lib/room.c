@@ -19,7 +19,8 @@ static void		*room_ctor(void *s_self, va_list *ap)
 	self->y = va_arg(*ap, int);
 	self->conns = NULL;
 	self->ant = 0;
-	self->type = 0;
+	self->weight = 0;
+	self->visited = 0;
 	if (!self->name)
 	{
 		ft_printf("malloc error\n");
@@ -51,7 +52,7 @@ void			set_ants(void *s_self, int ants)
 	self->ant = ants;
 }
 
-void			set_type(void *s_self, char type)
+void			set_weight(void *s_self, int weight)
 {
 	t_room *self;
 
@@ -61,7 +62,7 @@ void			set_type(void *s_self, char type)
 		ft_printf("couldn't set type\n");
 		return ;
 	}
-	self->type = type;
+	self->weight = weight;
 }
 
 void			room_init()

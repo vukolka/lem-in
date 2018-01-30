@@ -5,8 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/home/vukolov/Documents/unit/lem-in/src/ft_print_error.c" "/home/vukolov/Documents/unit/lem-in/cmake-build-debug/CMakeFiles/lem-in.dir/src/ft_print_error.c.o"
-  "/home/vukolov/Documents/unit/lem-in/src/get_solutions.c" "/home/vukolov/Documents/unit/lem-in/cmake-build-debug/CMakeFiles/lem-in.dir/src/get_solutions.c.o"
   "/home/vukolov/Documents/unit/lem-in/src/main.c" "/home/vukolov/Documents/unit/lem-in/cmake-build-debug/CMakeFiles/lem-in.dir/src/main.c.o"
+  "/home/vukolov/Documents/unit/lem-in/src/mark_map.c" "/home/vukolov/Documents/unit/lem-in/cmake-build-debug/CMakeFiles/lem-in.dir/src/mark_map.c.o"
   "/home/vukolov/Documents/unit/lem-in/src/parsing.c" "/home/vukolov/Documents/unit/lem-in/cmake-build-debug/CMakeFiles/lem-in.dir/src/parsing.c.o"
   "/home/vukolov/Documents/unit/lem-in/src/parsing_helper.c" "/home/vukolov/Documents/unit/lem-in/cmake-build-debug/CMakeFiles/lem-in.dir/src/parsing_helper.c.o"
   "/home/vukolov/Documents/unit/lem-in/src/room_lib.c" "/home/vukolov/Documents/unit/lem-in/cmake-build-debug/CMakeFiles/lem-in.dir/src/room_lib.c.o"

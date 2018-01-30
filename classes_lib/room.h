@@ -5,7 +5,7 @@
 
 extern const void 	*g_room;
 void 				room_init();
-void				set_type(void *s_self, char type);
+void				set_weight(void *s_self, int weight);
 void				set_ants(void *s_self, int ants);
 
 typedef struct		s_room
@@ -17,7 +17,8 @@ typedef struct		s_room
 	int 			y;
 	int 			ant;
 	t_llist			*conns;
-	char 			type;
+	int 			weight;
+	char 			visited;
 }					t_room;
 
 #endif

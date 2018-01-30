@@ -177,28 +177,28 @@ CMakeFiles/lem-in.dir/src/parsing_helper.c.o.provides: CMakeFiles/lem-in.dir/src
 CMakeFiles/lem-in.dir/src/parsing_helper.c.o.provides.build: CMakeFiles/lem-in.dir/src/parsing_helper.c.o
 
 
-CMakeFiles/lem-in.dir/src/get_solutions.c.o: CMakeFiles/lem-in.dir/flags.make
-CMakeFiles/lem-in.dir/src/get_solutions.c.o: ../src/get_solutions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/lem-in.dir/src/get_solutions.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem-in.dir/src/get_solutions.c.o   -c /home/vukolov/Documents/unit/lem-in/src/get_solutions.c
+CMakeFiles/lem-in.dir/src/mark_map.c.o: CMakeFiles/lem-in.dir/flags.make
+CMakeFiles/lem-in.dir/src/mark_map.c.o: ../src/mark_map.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/lem-in.dir/src/mark_map.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem-in.dir/src/mark_map.c.o   -c /home/vukolov/Documents/unit/lem-in/src/mark_map.c
 
-CMakeFiles/lem-in.dir/src/get_solutions.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem-in.dir/src/get_solutions.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/lem-in/src/get_solutions.c > CMakeFiles/lem-in.dir/src/get_solutions.c.i
+CMakeFiles/lem-in.dir/src/mark_map.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem-in.dir/src/mark_map.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/lem-in/src/mark_map.c > CMakeFiles/lem-in.dir/src/mark_map.c.i
 
-CMakeFiles/lem-in.dir/src/get_solutions.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem-in.dir/src/get_solutions.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/lem-in/src/get_solutions.c -o CMakeFiles/lem-in.dir/src/get_solutions.c.s
+CMakeFiles/lem-in.dir/src/mark_map.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem-in.dir/src/mark_map.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/lem-in/src/mark_map.c -o CMakeFiles/lem-in.dir/src/mark_map.c.s
 
-CMakeFiles/lem-in.dir/src/get_solutions.c.o.requires:
+CMakeFiles/lem-in.dir/src/mark_map.c.o.requires:
 
-.PHONY : CMakeFiles/lem-in.dir/src/get_solutions.c.o.requires
+.PHONY : CMakeFiles/lem-in.dir/src/mark_map.c.o.requires
 
-CMakeFiles/lem-in.dir/src/get_solutions.c.o.provides: CMakeFiles/lem-in.dir/src/get_solutions.c.o.requires
-	$(MAKE) -f CMakeFiles/lem-in.dir/build.make CMakeFiles/lem-in.dir/src/get_solutions.c.o.provides.build
-.PHONY : CMakeFiles/lem-in.dir/src/get_solutions.c.o.provides
+CMakeFiles/lem-in.dir/src/mark_map.c.o.provides: CMakeFiles/lem-in.dir/src/mark_map.c.o.requires
+	$(MAKE) -f CMakeFiles/lem-in.dir/build.make CMakeFiles/lem-in.dir/src/mark_map.c.o.provides.build
+.PHONY : CMakeFiles/lem-in.dir/src/mark_map.c.o.provides
 
-CMakeFiles/lem-in.dir/src/get_solutions.c.o.provides.build: CMakeFiles/lem-in.dir/src/get_solutions.c.o
+CMakeFiles/lem-in.dir/src/mark_map.c.o.provides.build: CMakeFiles/lem-in.dir/src/mark_map.c.o
 
 
 # Object files for target lem-in
@@ -208,7 +208,7 @@ lem__in_OBJECTS = \
 "CMakeFiles/lem-in.dir/src/ft_print_error.c.o" \
 "CMakeFiles/lem-in.dir/src/parsing.c.o" \
 "CMakeFiles/lem-in.dir/src/parsing_helper.c.o" \
-"CMakeFiles/lem-in.dir/src/get_solutions.c.o"
+"CMakeFiles/lem-in.dir/src/mark_map.c.o"
 
 # External object files for target lem-in
 lem__in_EXTERNAL_OBJECTS =
@@ -218,7 +218,7 @@ lem-in: CMakeFiles/lem-in.dir/src/room_lib.c.o
 lem-in: CMakeFiles/lem-in.dir/src/ft_print_error.c.o
 lem-in: CMakeFiles/lem-in.dir/src/parsing.c.o
 lem-in: CMakeFiles/lem-in.dir/src/parsing_helper.c.o
-lem-in: CMakeFiles/lem-in.dir/src/get_solutions.c.o
+lem-in: CMakeFiles/lem-in.dir/src/mark_map.c.o
 lem-in: CMakeFiles/lem-in.dir/build.make
 lem-in: classes_lib/libclasses_lib.a
 lem-in: libft/liblibft.a.a
@@ -238,7 +238,7 @@ CMakeFiles/lem-in.dir/requires: CMakeFiles/lem-in.dir/src/room_lib.c.o.requires
 CMakeFiles/lem-in.dir/requires: CMakeFiles/lem-in.dir/src/ft_print_error.c.o.requires
 CMakeFiles/lem-in.dir/requires: CMakeFiles/lem-in.dir/src/parsing.c.o.requires
 CMakeFiles/lem-in.dir/requires: CMakeFiles/lem-in.dir/src/parsing_helper.c.o.requires
-CMakeFiles/lem-in.dir/requires: CMakeFiles/lem-in.dir/src/get_solutions.c.o.requires
+CMakeFiles/lem-in.dir/requires: CMakeFiles/lem-in.dir/src/mark_map.c.o.requires
 
 .PHONY : CMakeFiles/lem-in.dir/requires
 

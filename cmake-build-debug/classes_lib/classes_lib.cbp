@@ -98,9 +98,6 @@
 		<Unit filename="/home/vukolov/Documents/unit/lem-in/classes_lib/String.h">
 			<Option target="classes_lib"/>
 		</Unit>
-		<Unit filename="/home/vukolov/Documents/unit/lem-in/classes_lib/ant.c">
-			<Option target="classes_lib"/>
-		</Unit>
 		<Unit filename="/home/vukolov/Documents/unit/lem-in/classes_lib/ant.h">
 			<Option target="classes_lib"/>
 		</Unit>
@@ -114,6 +111,12 @@
 			<Option target="classes_lib"/>
 		</Unit>
 		<Unit filename="/home/vukolov/Documents/unit/lem-in/classes_lib/new.h">
+			<Option target="classes_lib"/>
+		</Unit>
+		<Unit filename="/home/vukolov/Documents/unit/lem-in/classes_lib/queue.c">
+			<Option target="classes_lib"/>
+		</Unit>
+		<Unit filename="/home/vukolov/Documents/unit/lem-in/classes_lib/queue.h">
 			<Option target="classes_lib"/>
 		</Unit>
 		<Unit filename="/home/vukolov/Documents/unit/lem-in/classes_lib/room.c">

@@ -80,14 +80,6 @@ new.h
 
 /home/vukolov/Documents/unit/lem-in/classes_lib/String.h
 
-/home/vukolov/Documents/unit/lem-in/classes_lib/ant.c
-new.h
-/home/vukolov/Documents/unit/lem-in/classes_lib/new.h
-ant.h
-/home/vukolov/Documents/unit/lem-in/classes_lib/ant.h
-
-/home/vukolov/Documents/unit/lem-in/classes_lib/ant.h
-
 /home/vukolov/Documents/unit/lem-in/classes_lib/init_classes.c
 String.h
 /home/vukolov/Documents/unit/lem-in/classes_lib/String.h
@@ -101,8 +93,8 @@ Linked_list.h
 /home/vukolov/Documents/unit/lem-in/classes_lib/Linked_list.h
 room.h
 /home/vukolov/Documents/unit/lem-in/classes_lib/room.h
-ant.h
-/home/vukolov/Documents/unit/lem-in/classes_lib/ant.h
+queue.h
+/home/vukolov/Documents/unit/lem-in/classes_lib/queue.h
 
 /home/vukolov/Documents/unit/lem-in/classes_lib/new.c
 stdlib.h
@@ -115,6 +107,18 @@ stddef.h
 -
 stdarg.h
 -
+
+/home/vukolov/Documents/unit/lem-in/classes_lib/queue.c
+queue.h
+/home/vukolov/Documents/unit/lem-in/classes_lib/queue.h
+new.h
+/home/vukolov/Documents/unit/lem-in/classes_lib/new.h
+string.h
+-
+Linked_list.h
+/home/vukolov/Documents/unit/lem-in/classes_lib/Linked_list.h
+
+/home/vukolov/Documents/unit/lem-in/classes_lib/queue.h
 
 /home/vukolov/Documents/unit/lem-in/classes_lib/room.c
 libft.h

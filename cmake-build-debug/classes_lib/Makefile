@@ -260,33 +260,6 @@ String.c.s:
 	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f classes_lib/CMakeFiles/classes_lib.dir/build.make classes_lib/CMakeFiles/classes_lib.dir/String.c.s
 .PHONY : String.c.s
 
-ant.o: ant.c.o
-
-.PHONY : ant.o
-
-# target to build an object file
-ant.c.o:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f classes_lib/CMakeFiles/classes_lib.dir/build.make classes_lib/CMakeFiles/classes_lib.dir/ant.c.o
-.PHONY : ant.c.o
-
-ant.i: ant.c.i
-
-.PHONY : ant.i
-
-# target to preprocess a source file
-ant.c.i:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f classes_lib/CMakeFiles/classes_lib.dir/build.make classes_lib/CMakeFiles/classes_lib.dir/ant.c.i
-.PHONY : ant.c.i
-
-ant.s: ant.c.s
-
-.PHONY : ant.s
-
-# target to generate assembly for a file
-ant.c.s:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f classes_lib/CMakeFiles/classes_lib.dir/build.make classes_lib/CMakeFiles/classes_lib.dir/ant.c.s
-.PHONY : ant.c.s
-
 init_classes.o: init_classes.c.o
 
 .PHONY : init_classes.o
@@ -341,6 +314,33 @@ new.c.s:
 	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f classes_lib/CMakeFiles/classes_lib.dir/build.make classes_lib/CMakeFiles/classes_lib.dir/new.c.s
 .PHONY : new.c.s
 
+queue.o: queue.c.o
+
+.PHONY : queue.o
+
+# target to build an object file
+queue.c.o:
+	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f classes_lib/CMakeFiles/classes_lib.dir/build.make classes_lib/CMakeFiles/classes_lib.dir/queue.c.o
+.PHONY : queue.c.o
+
+queue.i: queue.c.i
+
+.PHONY : queue.i
+
+# target to preprocess a source file
+queue.c.i:
+	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f classes_lib/CMakeFiles/classes_lib.dir/build.make classes_lib/CMakeFiles/classes_lib.dir/queue.c.i
+.PHONY : queue.c.i
+
+queue.s: queue.c.s
+
+.PHONY : queue.s
+
+# target to generate assembly for a file
+queue.c.s:
+	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f classes_lib/CMakeFiles/classes_lib.dir/build.make classes_lib/CMakeFiles/classes_lib.dir/queue.c.s
+.PHONY : queue.c.s
+
 room.o: room.c.o
 
 .PHONY : room.o
@@ -392,15 +392,15 @@ help:
 	@echo "... String.o"
 	@echo "... String.i"
 	@echo "... String.s"
-	@echo "... ant.o"
-	@echo "... ant.i"
-	@echo "... ant.s"
 	@echo "... init_classes.o"
 	@echo "... init_classes.i"
 	@echo "... init_classes.s"
 	@echo "... new.o"
 	@echo "... new.i"
 	@echo "... new.s"
+	@echo "... queue.o"
+	@echo "... queue.i"
+	@echo "... queue.s"
 	@echo "... room.o"
 	@echo "... room.i"
 	@echo "... room.s"

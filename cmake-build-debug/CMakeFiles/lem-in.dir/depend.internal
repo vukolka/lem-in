@@ -17,6 +17,15 @@ CMakeFiles/lem-in.dir/src/main.c.o
  ../libft/includes/libft.h
  /home/vukolov/Documents/unit/lem-in/src/lemin.h
  /home/vukolov/Documents/unit/lem-in/src/main.c
+CMakeFiles/lem-in.dir/src/mark_map.c.o
+ ../classes_lib/Linked_list.h
+ ../classes_lib/new.h
+ ../classes_lib/queue.h
+ ../classes_lib/room.h
+ ../libft/includes/ft_printf.h
+ ../libft/includes/libft.h
+ /home/vukolov/Documents/unit/lem-in/src/lemin.h
+ /home/vukolov/Documents/unit/lem-in/src/mark_map.c
 CMakeFiles/lem-in.dir/src/parsing.c.o
  ../classes_lib/Linked_list.h
  ../classes_lib/new.h
@@ -26,10 +35,6 @@ CMakeFiles/lem-in.dir/src/parsing.c.o
  /home/vukolov/Documents/unit/lem-in/src/lemin.h
  /home/vukolov/Documents/unit/lem-in/src/parsing.c
 CMakeFiles/lem-in.dir/src/parsing_helper.c.o
- ../classes_lib/Linked_list.h
- ../classes_lib/ant.h
- ../classes_lib/new.h
- /home/vukolov/Documents/unit/lem-in/src/lemin.h
  /home/vukolov/Documents/unit/lem-in/src/parsing_helper.c
 CMakeFiles/lem-in.dir/src/room_lib.c.o
  ../classes_lib/Linked_list.h

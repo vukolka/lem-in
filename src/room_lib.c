@@ -21,10 +21,10 @@ int 	move_to_room(void *s_dest, void *s_src)
 
 	dest = s_dest;
 	src = s_src;
-	if ((dest->ant != 0 && dest->type != 2) || src->ant == 0)
+	if ((dest->ant != 0 && dest->weight != 2) || src->ant == 0)
 		return (0);
 	dest->ant = src->ant;
-	if (src->type != 1)
+	if (src->weight != 1)
 		src->ant = 0;
 	else
 		src->ant--;

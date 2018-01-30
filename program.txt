@@ -27,19 +27,13 @@ returns 1 if empty, 0 if not
 prints move to stdout
 
 ||||| SOLUTION |||||
-First, find all possible solutions and sort by steps ammount required in accending order.
-Step up with every ant towards the best possible solution
-for every ant
+
+mark finish as 0
+add finish point to the queue
+
+while (queue is not empty)
 {
-	for every solution
-	{
-		find ant's position in solution.
-		try to move forward through solution
-		if move is possible
-			put the move on stack
-			move ant forward
-			break;
-		else
-			continue ; 
-	}
+	equee the last child.
+	mark all of its unvizited nodes as ist mark + 1
+	add all of its unvizited children to the queue
 }

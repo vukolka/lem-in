@@ -249,28 +249,28 @@ classes_lib/CMakeFiles/classes_lib.dir/room.c.o.provides: classes_lib/CMakeFiles
 classes_lib/CMakeFiles/classes_lib.dir/room.c.o.provides.build: classes_lib/CMakeFiles/classes_lib.dir/room.c.o
 
 
-classes_lib/CMakeFiles/classes_lib.dir/ant.c.o: classes_lib/CMakeFiles/classes_lib.dir/flags.make
-classes_lib/CMakeFiles/classes_lib.dir/ant.c.o: ../classes_lib/ant.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object classes_lib/CMakeFiles/classes_lib.dir/ant.c.o"
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug/classes_lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/classes_lib.dir/ant.c.o   -c /home/vukolov/Documents/unit/lem-in/classes_lib/ant.c
+classes_lib/CMakeFiles/classes_lib.dir/queue.c.o: classes_lib/CMakeFiles/classes_lib.dir/flags.make
+classes_lib/CMakeFiles/classes_lib.dir/queue.c.o: ../classes_lib/queue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object classes_lib/CMakeFiles/classes_lib.dir/queue.c.o"
+	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug/classes_lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/classes_lib.dir/queue.c.o   -c /home/vukolov/Documents/unit/lem-in/classes_lib/queue.c
 
-classes_lib/CMakeFiles/classes_lib.dir/ant.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/classes_lib.dir/ant.c.i"
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug/classes_lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/lem-in/classes_lib/ant.c > CMakeFiles/classes_lib.dir/ant.c.i
+classes_lib/CMakeFiles/classes_lib.dir/queue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/classes_lib.dir/queue.c.i"
+	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug/classes_lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/lem-in/classes_lib/queue.c > CMakeFiles/classes_lib.dir/queue.c.i
 
-classes_lib/CMakeFiles/classes_lib.dir/ant.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/classes_lib.dir/ant.c.s"
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug/classes_lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/lem-in/classes_lib/ant.c -o CMakeFiles/classes_lib.dir/ant.c.s
+classes_lib/CMakeFiles/classes_lib.dir/queue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/classes_lib.dir/queue.c.s"
+	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug/classes_lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/lem-in/classes_lib/queue.c -o CMakeFiles/classes_lib.dir/queue.c.s
 
-classes_lib/CMakeFiles/classes_lib.dir/ant.c.o.requires:
+classes_lib/CMakeFiles/classes_lib.dir/queue.c.o.requires:
 
-.PHONY : classes_lib/CMakeFiles/classes_lib.dir/ant.c.o.requires
+.PHONY : classes_lib/CMakeFiles/classes_lib.dir/queue.c.o.requires
 
-classes_lib/CMakeFiles/classes_lib.dir/ant.c.o.provides: classes_lib/CMakeFiles/classes_lib.dir/ant.c.o.requires
-	$(MAKE) -f classes_lib/CMakeFiles/classes_lib.dir/build.make classes_lib/CMakeFiles/classes_lib.dir/ant.c.o.provides.build
-.PHONY : classes_lib/CMakeFiles/classes_lib.dir/ant.c.o.provides
+classes_lib/CMakeFiles/classes_lib.dir/queue.c.o.provides: classes_lib/CMakeFiles/classes_lib.dir/queue.c.o.requires
+	$(MAKE) -f classes_lib/CMakeFiles/classes_lib.dir/build.make classes_lib/CMakeFiles/classes_lib.dir/queue.c.o.provides.build
+.PHONY : classes_lib/CMakeFiles/classes_lib.dir/queue.c.o.provides
 
-classes_lib/CMakeFiles/classes_lib.dir/ant.c.o.provides.build: classes_lib/CMakeFiles/classes_lib.dir/ant.c.o
+classes_lib/CMakeFiles/classes_lib.dir/queue.c.o.provides.build: classes_lib/CMakeFiles/classes_lib.dir/queue.c.o
 
 
 # Object files for target classes_lib
@@ -283,7 +283,7 @@ classes_lib_OBJECTS = \
 "CMakeFiles/classes_lib.dir/Image.c.o" \
 "CMakeFiles/classes_lib.dir/Linked_list.c.o" \
 "CMakeFiles/classes_lib.dir/room.c.o" \
-"CMakeFiles/classes_lib.dir/ant.c.o"
+"CMakeFiles/classes_lib.dir/queue.c.o"
 
 # External object files for target classes_lib
 classes_lib_EXTERNAL_OBJECTS =
@@ -296,7 +296,7 @@ classes_lib/libclasses_lib.a: classes_lib/CMakeFiles/classes_lib.dir/MLXConn.c.o
 classes_lib/libclasses_lib.a: classes_lib/CMakeFiles/classes_lib.dir/Image.c.o
 classes_lib/libclasses_lib.a: classes_lib/CMakeFiles/classes_lib.dir/Linked_list.c.o
 classes_lib/libclasses_lib.a: classes_lib/CMakeFiles/classes_lib.dir/room.c.o
-classes_lib/libclasses_lib.a: classes_lib/CMakeFiles/classes_lib.dir/ant.c.o
+classes_lib/libclasses_lib.a: classes_lib/CMakeFiles/classes_lib.dir/queue.c.o
 classes_lib/libclasses_lib.a: classes_lib/CMakeFiles/classes_lib.dir/build.make
 classes_lib/libclasses_lib.a: classes_lib/CMakeFiles/classes_lib.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vukolov/Documents/unit/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C static library libclasses_lib.a"
@@ -316,7 +316,7 @@ classes_lib/CMakeFiles/classes_lib.dir/requires: classes_lib/CMakeFiles/classes_
 classes_lib/CMakeFiles/classes_lib.dir/requires: classes_lib/CMakeFiles/classes_lib.dir/Image.c.o.requires
 classes_lib/CMakeFiles/classes_lib.dir/requires: classes_lib/CMakeFiles/classes_lib.dir/Linked_list.c.o.requires
 classes_lib/CMakeFiles/classes_lib.dir/requires: classes_lib/CMakeFiles/classes_lib.dir/room.c.o.requires
-classes_lib/CMakeFiles/classes_lib.dir/requires: classes_lib/CMakeFiles/classes_lib.dir/ant.c.o.requires
+classes_lib/CMakeFiles/classes_lib.dir/requires: classes_lib/CMakeFiles/classes_lib.dir/queue.c.o.requires
 
 .PHONY : classes_lib/CMakeFiles/classes_lib.dir/requires
 
