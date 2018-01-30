@@ -55,7 +55,7 @@ int		make_step(t_ant *ant, t_room *end)
 		ant->room = best;
 		best->ant = 1;
 		current->ant = 0;
-		ft_printf("%d%s-%s ", ant->id, current->name, best->name);
+		ft_printf("L%d-%s ", ant->id, best->name);
 		return (1);
 	}
 	return (0);
@@ -71,7 +71,7 @@ void	move_ants(t_env *env)
 	i = 0;
 	while (i < env->total_ants)
 	{
-		ants[i].id = i;
+		ants[i].id = i + 1;
 		ants[i].room = env->head;
 		i++;
 	}
