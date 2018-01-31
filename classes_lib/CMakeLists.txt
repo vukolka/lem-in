@@ -17,7 +17,6 @@ set(SOURCE_FILES
         Linked_list.h
         room.c
         room.h
-        ant.h
         queue.c
         queue.h)
 include_directories(../libft/includes)

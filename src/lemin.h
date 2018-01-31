@@ -22,8 +22,10 @@ typedef struct	s_ant
 {
 	int 		id;
 	void		*room;
+	int 		moved;
 }				t_ant;
 
+void			solve(char *filename);
 void			mark_map(t_env *env);
 void			make_ants_list(t_env *env);
 void			parse_map(char *file_name, t_env *env);

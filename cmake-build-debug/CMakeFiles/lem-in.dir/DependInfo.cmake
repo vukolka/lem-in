@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/vukolov/Documents/unit/lem-in/src/parsing.c" "/home/vukolov/Documents/unit/lem-in/cmake-build-debug/CMakeFiles/lem-in.dir/src/parsing.c.o"
   "/home/vukolov/Documents/unit/lem-in/src/parsing_helper.c" "/home/vukolov/Documents/unit/lem-in/cmake-build-debug/CMakeFiles/lem-in.dir/src/parsing_helper.c.o"
   "/home/vukolov/Documents/unit/lem-in/src/room_lib.c" "/home/vukolov/Documents/unit/lem-in/cmake-build-debug/CMakeFiles/lem-in.dir/src/room_lib.c.o"
+  "/home/vukolov/Documents/unit/lem-in/src/solve.c" "/home/vukolov/Documents/unit/lem-in/cmake-build-debug/CMakeFiles/lem-in.dir/src/solve.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

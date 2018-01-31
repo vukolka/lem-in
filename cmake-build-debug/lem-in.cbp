@@ -318,9 +318,6 @@
 		<Unit filename="/home/vukolov/Documents/unit/lem-in/classes_lib/String.h">
 			<Option target="classes_lib"/>
 		</Unit>
-		<Unit filename="/home/vukolov/Documents/unit/lem-in/classes_lib/ant.h">
-			<Option target="classes_lib"/>
-		</Unit>
 		<Unit filename="/home/vukolov/Documents/unit/lem-in/classes_lib/classes_lib.h">
 			<Option target="classes_lib"/>
 		</Unit>
@@ -625,6 +622,9 @@
 			<Option target="lem-in"/>
 		</Unit>
 		<Unit filename="/home/vukolov/Documents/unit/lem-in/src/room_lib.c">
+			<Option target="lem-in"/>
+		</Unit>
+		<Unit filename="/home/vukolov/Documents/unit/lem-in/src/solve.c">
 			<Option target="lem-in"/>
 		</Unit>
 		<Unit filename="/home/vukolov/Documents/unit/lem-in/CMakeLists.txt">

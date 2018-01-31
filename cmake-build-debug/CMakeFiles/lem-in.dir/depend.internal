@@ -41,3 +41,10 @@ CMakeFiles/lem-in.dir/src/room_lib.c.o
  ../classes_lib/room.h
  ../libft/includes/libft.h
  /home/vukolov/Documents/unit/lem-in/src/room_lib.c
+CMakeFiles/lem-in.dir/src/solve.c.o
+ ../classes_lib/Linked_list.h
+ ../classes_lib/room.h
+ ../libft/includes/ft_printf.h
+ ../libft/includes/libft.h
+ /home/vukolov/Documents/unit/lem-in/src/lemin.h
+ /home/vukolov/Documents/unit/lem-in/src/solve.c

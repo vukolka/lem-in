@@ -41,3 +41,10 @@ CMakeFiles/lem-in.dir/src/room_lib.c.o: ../classes_lib/room.h
 CMakeFiles/lem-in.dir/src/room_lib.c.o: ../libft/includes/libft.h
 CMakeFiles/lem-in.dir/src/room_lib.c.o: ../src/room_lib.c
 
+CMakeFiles/lem-in.dir/src/solve.c.o: ../classes_lib/Linked_list.h
+CMakeFiles/lem-in.dir/src/solve.c.o: ../classes_lib/room.h
+CMakeFiles/lem-in.dir/src/solve.c.o: ../libft/includes/ft_printf.h
+CMakeFiles/lem-in.dir/src/solve.c.o: ../libft/includes/libft.h
+CMakeFiles/lem-in.dir/src/solve.c.o: ../src/lemin.h
+CMakeFiles/lem-in.dir/src/solve.c.o: ../src/solve.c
+

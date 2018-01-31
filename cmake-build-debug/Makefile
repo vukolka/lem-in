@@ -337,6 +337,33 @@ src/room_lib.c.s:
 	$(MAKE) -f CMakeFiles/lem-in.dir/build.make CMakeFiles/lem-in.dir/src/room_lib.c.s
 .PHONY : src/room_lib.c.s
 
+src/solve.o: src/solve.c.o
+
+.PHONY : src/solve.o
+
+# target to build an object file
+src/solve.c.o:
+	$(MAKE) -f CMakeFiles/lem-in.dir/build.make CMakeFiles/lem-in.dir/src/solve.c.o
+.PHONY : src/solve.c.o
+
+src/solve.i: src/solve.c.i
+
+.PHONY : src/solve.i
+
+# target to preprocess a source file
+src/solve.c.i:
+	$(MAKE) -f CMakeFiles/lem-in.dir/build.make CMakeFiles/lem-in.dir/src/solve.c.i
+.PHONY : src/solve.c.i
+
+src/solve.s: src/solve.c.s
+
+.PHONY : src/solve.s
+
+# target to generate assembly for a file
+src/solve.c.s:
+	$(MAKE) -f CMakeFiles/lem-in.dir/build.make CMakeFiles/lem-in.dir/src/solve.c.s
+.PHONY : src/solve.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -368,6 +395,9 @@ help:
 	@echo "... src/room_lib.o"
 	@echo "... src/room_lib.i"
 	@echo "... src/room_lib.s"
+	@echo "... src/solve.o"
+	@echo "... src/solve.i"
+	@echo "... src/solve.s"
 .PHONY : help
 
 
