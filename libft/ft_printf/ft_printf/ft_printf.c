@@ -37,9 +37,8 @@ static size_t	process_result(const char *format, va_list ap, char **res)
 		else
 			i++;
 	}
-	i = ft_strlen(format);
-	*res = ft_conncat(*res, format, total_len, i);
-	total_len += i;
+	*res = ft_conncat(*res, format, total_len, ft_strlen(format));
+	total_len += ft_strlen(format);
 	return (total_len);
 }
 

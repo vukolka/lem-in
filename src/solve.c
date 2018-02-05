@@ -44,7 +44,6 @@ int		make_step(t_ant *ant, t_room *end)
 	t_room	*current;
 	t_room	*best;
 	t_llist	*conns;
-	t_room	*temp;
 
 	best = NULL;
 	current = (t_room *)ant->room;

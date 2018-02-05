@@ -34,12 +34,6 @@ typedef	struct			s_dict
 	struct s_dict		*next;
 }						t_dict;
 
-typedef struct			s_dictionary
-{
-	void 				*data;
-	char 				*key;
-}						t_dictionary;
-
 int						ft_wstrlen(wchar_t *str);
 int						ft_isspace(char c);
 void					ft_strupper(char *a);
