@@ -8,154 +8,132 @@
 		<Option virtualFolders="CMake Files\;CMake Files\classes_lib\;CMake Files\libft\;CMake Files\libft\ft_printf\;CMake Files\libft\ft_printf\libftprintf\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/vukolov/Documents/unit/lem-in/cmake-build-debug/classes_lib"/>
+				<Option working_dir="/Users/mvukolov/Documents/lem-in/cmake-build-debug/classes_lib"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/vukolov/Documents/unit/lem-in/cmake-build-debug/classes_lib/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/vukolov/Documents/unit/lem-in/cmake-build-debug/classes_lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/vukolov/Documents/unit/lem-in/cmake-build-debug/classes_lib/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/vukolov/Documents/unit/lem-in/cmake-build-debug/classes_lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mvukolov/Documents/lem-in/cmake-build-debug/classes_lib/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mvukolov/Documents/lem-in/cmake-build-debug/classes_lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mvukolov/Documents/lem-in/cmake-build-debug/classes_lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mvukolov/Documents/lem-in/cmake-build-debug/classes_lib/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="classes_lib">
-				<Option output="/home/vukolov/Documents/unit/lem-in/cmake-build-debug/classes_lib/libclasses_lib.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vukolov/Documents/unit/lem-in/cmake-build-debug/classes_lib"/>
+				<Option output="/Users/mvukolov/Documents/lem-in/cmake-build-debug/classes_lib/libclasses_lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mvukolov/Documents/lem-in/cmake-build-debug/classes_lib"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/vukolov/Documents/unit/lem-in/classes_lib/../libft/includes"/>
-					<Add directory="/home/vukolov/Documents/unit/lem-in/classes_lib/libmlx"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/Users/mvukolov/Documents/lem-in/classes_lib/../libft/includes"/>
+					<Add directory="/Users/mvukolov/Documents/lem-in/classes_lib/libmlx"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/vukolov/Documents/unit/lem-in/cmake-build-debug/classes_lib/Makefile&quot;  VERBOSE=1 classes_lib"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/vukolov/Documents/unit/lem-in/cmake-build-debug/classes_lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/vukolov/Documents/unit/lem-in/cmake-build-debug/classes_lib/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/vukolov/Documents/unit/lem-in/cmake-build-debug/classes_lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mvukolov/Documents/lem-in/cmake-build-debug/classes_lib/Makefile&quot;  VERBOSE=1 classes_lib"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mvukolov/Documents/lem-in/cmake-build-debug/classes_lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mvukolov/Documents/lem-in/cmake-build-debug/classes_lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mvukolov/Documents/lem-in/cmake-build-debug/classes_lib/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="classes_lib/fast">
-				<Option output="/home/vukolov/Documents/unit/lem-in/cmake-build-debug/classes_lib/libclasses_lib.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vukolov/Documents/unit/lem-in/cmake-build-debug/classes_lib"/>
+				<Option output="/Users/mvukolov/Documents/lem-in/cmake-build-debug/classes_lib/libclasses_lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mvukolov/Documents/lem-in/cmake-build-debug/classes_lib"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/vukolov/Documents/unit/lem-in/classes_lib/../libft/includes"/>
-					<Add directory="/home/vukolov/Documents/unit/lem-in/classes_lib/libmlx"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/Users/mvukolov/Documents/lem-in/classes_lib/../libft/includes"/>
+					<Add directory="/Users/mvukolov/Documents/lem-in/classes_lib/libmlx"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/vukolov/Documents/unit/lem-in/cmake-build-debug/classes_lib/Makefile&quot;  VERBOSE=1 classes_lib/fast"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/vukolov/Documents/unit/lem-in/cmake-build-debug/classes_lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/vukolov/Documents/unit/lem-in/cmake-build-debug/classes_lib/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/vukolov/Documents/unit/lem-in/cmake-build-debug/classes_lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mvukolov/Documents/lem-in/cmake-build-debug/classes_lib/Makefile&quot;  VERBOSE=1 classes_lib/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mvukolov/Documents/lem-in/cmake-build-debug/classes_lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mvukolov/Documents/lem-in/cmake-build-debug/classes_lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mvukolov/Documents/lem-in/cmake-build-debug/classes_lib/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/vukolov/Documents/unit/lem-in/classes_lib/Image.c">
+		<Unit filename="/Users/mvukolov/Documents/lem-in/classes_lib/Linked_list.c">
 			<Option target="classes_lib"/>
 		</Unit>
-		<Unit filename="/home/vukolov/Documents/unit/lem-in/classes_lib/Image.h">
+		<Unit filename="/Users/mvukolov/Documents/lem-in/classes_lib/Linked_list.h">
 			<Option target="classes_lib"/>
 		</Unit>
-		<Unit filename="/home/vukolov/Documents/unit/lem-in/classes_lib/Linked_list.c">
+		<Unit filename="/Users/mvukolov/Documents/lem-in/classes_lib/String.c">
 			<Option target="classes_lib"/>
 		</Unit>
-		<Unit filename="/home/vukolov/Documents/unit/lem-in/classes_lib/Linked_list.h">
+		<Unit filename="/Users/mvukolov/Documents/lem-in/classes_lib/String.h">
 			<Option target="classes_lib"/>
 		</Unit>
-		<Unit filename="/home/vukolov/Documents/unit/lem-in/classes_lib/MLXConn.c">
+		<Unit filename="/Users/mvukolov/Documents/lem-in/classes_lib/classes_lib.h">
 			<Option target="classes_lib"/>
 		</Unit>
-		<Unit filename="/home/vukolov/Documents/unit/lem-in/classes_lib/MLXConn.h">
+		<Unit filename="/Users/mvukolov/Documents/lem-in/classes_lib/init_classes.c">
 			<Option target="classes_lib"/>
 		</Unit>
-		<Unit filename="/home/vukolov/Documents/unit/lem-in/classes_lib/Point.c">
+		<Unit filename="/Users/mvukolov/Documents/lem-in/classes_lib/new.c">
 			<Option target="classes_lib"/>
 		</Unit>
-		<Unit filename="/home/vukolov/Documents/unit/lem-in/classes_lib/Point.h">
+		<Unit filename="/Users/mvukolov/Documents/lem-in/classes_lib/new.h">
 			<Option target="classes_lib"/>
 		</Unit>
-		<Unit filename="/home/vukolov/Documents/unit/lem-in/classes_lib/String.c">
+		<Unit filename="/Users/mvukolov/Documents/lem-in/classes_lib/queue.c">
 			<Option target="classes_lib"/>
 		</Unit>
-		<Unit filename="/home/vukolov/Documents/unit/lem-in/classes_lib/String.h">
+		<Unit filename="/Users/mvukolov/Documents/lem-in/classes_lib/queue.h">
 			<Option target="classes_lib"/>
 		</Unit>
-		<Unit filename="/home/vukolov/Documents/unit/lem-in/classes_lib/classes_lib.h">
+		<Unit filename="/Users/mvukolov/Documents/lem-in/classes_lib/room.c">
 			<Option target="classes_lib"/>
 		</Unit>
-		<Unit filename="/home/vukolov/Documents/unit/lem-in/classes_lib/init_classes.c">
+		<Unit filename="/Users/mvukolov/Documents/lem-in/classes_lib/room.h">
 			<Option target="classes_lib"/>
 		</Unit>
-		<Unit filename="/home/vukolov/Documents/unit/lem-in/classes_lib/new.c">
-			<Option target="classes_lib"/>
-		</Unit>
-		<Unit filename="/home/vukolov/Documents/unit/lem-in/classes_lib/new.h">
-			<Option target="classes_lib"/>
-		</Unit>
-		<Unit filename="/home/vukolov/Documents/unit/lem-in/classes_lib/queue.c">
-			<Option target="classes_lib"/>
-		</Unit>
-		<Unit filename="/home/vukolov/Documents/unit/lem-in/classes_lib/queue.h">
-			<Option target="classes_lib"/>
-		</Unit>
-		<Unit filename="/home/vukolov/Documents/unit/lem-in/classes_lib/room.c">
-			<Option target="classes_lib"/>
-		</Unit>
-		<Unit filename="/home/vukolov/Documents/unit/lem-in/classes_lib/room.h">
-			<Option target="classes_lib"/>
-		</Unit>
-		<Unit filename="/home/vukolov/Documents/unit/lem-in/CMakeLists.txt">
+		<Unit filename="/Users/mvukolov/Documents/lem-in/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/vukolov/Documents/unit/lem-in/classes_lib/CMakeLists.txt">
+		<Unit filename="/Users/mvukolov/Documents/lem-in/classes_lib/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\classes_lib\"/>
 		</Unit>
-		<Unit filename="/home/vukolov/Documents/unit/lem-in/classes_lib/CMakeLists.txt">
+		<Unit filename="/Users/mvukolov/Documents/lem-in/classes_lib/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\classes_lib\"/>
 		</Unit>
-		<Unit filename="/home/vukolov/Documents/unit/lem-in/libft/CMakeLists.txt">
+		<Unit filename="/Users/mvukolov/Documents/lem-in/libft/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\libft\"/>
 		</Unit>
-		<Unit filename="/home/vukolov/Documents/unit/lem-in/libft/CMakeLists.txt">
+		<Unit filename="/Users/mvukolov/Documents/lem-in/libft/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\libft\"/>
 		</Unit>
-		<Unit filename="/home/vukolov/Documents/unit/lem-in/libft/ft_printf/CMakeLists.txt">
+		<Unit filename="/Users/mvukolov/Documents/lem-in/libft/ft_printf/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\libft\ft_printf\"/>
 		</Unit>
-		<Unit filename="/home/vukolov/Documents/unit/lem-in/libft/ft_printf/CMakeLists.txt">
+		<Unit filename="/Users/mvukolov/Documents/lem-in/libft/ft_printf/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\libft\ft_printf\"/>
 		</Unit>
-		<Unit filename="/home/vukolov/Documents/unit/lem-in/libft/ft_printf/CMakeLists.txt">
+		<Unit filename="/Users/mvukolov/Documents/lem-in/libft/ft_printf/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\libft\ft_printf\"/>
 		</Unit>
-		<Unit filename="/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/CMakeLists.txt">
+		<Unit filename="/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\libft\ft_printf\libftprintf\"/>
 		</Unit>
-		<Unit filename="/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/CMakeLists.txt">
+		<Unit filename="/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\libft\ft_printf\libftprintf\"/>
 		</Unit>
-		<Unit filename="/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/CMakeLists.txt">
+		<Unit filename="/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\libft\ft_printf\libftprintf\"/>
 		</Unit>
-		<Unit filename="/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/CMakeLists.txt">
+		<Unit filename="/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\libft\ft_printf\libftprintf\"/>
 		</Unit>
 	</Project>

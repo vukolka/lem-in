@@ -1,0 +1,53 @@
+100
+##start
+rs 1 0
+##end
+re 5 0
+s1 1 1
+s2 2 2
+s3 3 3
+s4 4 4
+s5 5 5
+s6 6 6
+s7 7 7
+s8 8 8
+rs-s1
+rs-s3
+rs-s5
+rs-s7
+s1-s2
+s3-s4
+s5-s6
+s7-s8
+s2-re
+s4-re
+s6-re
+s8-re
+
+L1-s1 L2-s3 L3-s5 L4-s7
+L1-s2 L2-s4 L3-s6 L4-s8 L5-s1 L6-s3 L7-s5 L8-s7
+L1-re L2-re L3-re L4-re L5-s2 L6-s4 L7-s6 L8-s8 L9-s1 L10-s3 L11-s5 L12-s7
+L5-re L6-re L7-re L8-re L9-s2 L10-s4 L11-s6 L12-s8 L13-s1 L14-s3 L15-s5 L16-s7
+L9-re L10-re L11-re L12-re L13-s2 L14-s4 L15-s6 L16-s8 L17-s1 L18-s3 L19-s5 L20-s7
+L13-re L14-re L15-re L16-re L17-s2 L18-s4 L19-s6 L20-s8 L21-s1 L22-s3 L23-s5 L24-s7
+L17-re L18-re L19-re L20-re L21-s2 L22-s4 L23-s6 L24-s8 L25-s1 L26-s3 L27-s5 L28-s7
+L21-re L22-re L23-re L24-re L25-s2 L26-s4 L27-s6 L28-s8 L29-s1 L30-s3 L31-s5 L32-s7
+L25-re L26-re L27-re L28-re L29-s2 L30-s4 L31-s6 L32-s8 L33-s1 L34-s3 L35-s5 L36-s7
+L29-re L30-re L31-re L32-re L33-s2 L34-s4 L35-s6 L36-s8 L37-s1 L38-s3 L39-s5 L40-s7
+L33-re L34-re L35-re L36-re L37-s2 L38-s4 L39-s6 L40-s8 L41-s1 L42-s3 L43-s5 L44-s7
+L37-re L38-re L39-re L40-re L41-s2 L42-s4 L43-s6 L44-s8 L45-s1 L46-s3 L47-s5 L48-s7
+L41-re L42-re L43-re L44-re L45-s2 L46-s4 L47-s6 L48-s8 L49-s1 L50-s3 L51-s5 L52-s7
+L45-re L46-re L47-re L48-re L49-s2 L50-s4 L51-s6 L52-s8 L53-s1 L54-s3 L55-s5 L56-s7
+L49-re L50-re L51-re L52-re L53-s2 L54-s4 L55-s6 L56-s8 L57-s1 L58-s3 L59-s5 L60-s7
+L53-re L54-re L55-re L56-re L57-s2 L58-s4 L59-s6 L60-s8 L61-s1 L62-s3 L63-s5 L64-s7
+L57-re L58-re L59-re L60-re L61-s2 L62-s4 L63-s6 L64-s8 L65-s1 L66-s3 L67-s5 L68-s7
+L61-re L62-re L63-re L64-re L65-s2 L66-s4 L67-s6 L68-s8 L69-s1 L70-s3 L71-s5 L72-s7
+L65-re L66-re L67-re L68-re L69-s2 L70-s4 L71-s6 L72-s8 L73-s1 L74-s3 L75-s5 L76-s7
+L69-re L70-re L71-re L72-re L73-s2 L74-s4 L75-s6 L76-s8 L77-s1 L78-s3 L79-s5 L80-s7
+L73-re L74-re L75-re L76-re L77-s2 L78-s4 L79-s6 L80-s8 L81-s1 L82-s3 L83-s5 L84-s7
+L77-re L78-re L79-re L80-re L81-s2 L82-s4 L83-s6 L84-s8 L85-s1 L86-s3 L87-s5 L88-s7
+L81-re L82-re L83-re L84-re L85-s2 L86-s4 L87-s6 L88-s8 L89-s1 L90-s3 L91-s5 L92-s7
+L85-re L86-re L87-re L88-re L89-s2 L90-s4 L91-s6 L92-s8 L93-s1 L94-s3 L95-s5 L96-s7
+L89-re L90-re L91-re L92-re L93-s2 L94-s4 L95-s6 L96-s8 L97-s1 L98-s3 L99-s5 L100-s7
+L93-re L94-re L95-re L96-re L97-s2 L98-s4 L99-s6 L100-s8
+L97-re L98-re L99-re L100-re

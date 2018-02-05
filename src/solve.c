@@ -2,6 +2,33 @@
 #include "lemin.h"
 #include <string.h>
 #include <ft_printf.h>
+#include <fcntl.h>
+#include <get_next_line.h>
+
+void	print_map(char *s_filename)
+{
+	int			fd;
+	static char *filename;
+	char		*line;
+	static int	printed;
+
+	if (s_filename || printed)
+	{
+		filename = s_filename;
+		return ;
+	}
+	fd = open(filename, O_RDONLY);
+	if (fd < 0)
+		ft_print_error(INVALID_MAP);
+	while (get_next_line(fd, &line))
+	{
+		ft_printf("%s\n", line);
+		free(line);
+	}
+	ft_printf("\n");
+	printed = 1;
+	close(fd);
+}
 
 int 	in_mid_way(t_ant *ants, int total_ants, void *end)
 {
@@ -54,6 +81,7 @@ int		make_step(t_ant *ant, t_room *end)
 	best = find_best_move(conns, current, end);
 	if (best)
 	{
+		print_map(NULL);
 		ant->room = best;
 		best->ant = 1;
 		current->ant = 0;
@@ -108,6 +136,7 @@ void	move_ants(t_env *env)
 	{
 		ants[i].id = i + 1;
 		ants[i].room = env->head;
+        ants[i].moved = 0;
 		i++;
 	}
 	while (in_mid_way(ants, env->total_ants, env->end))
@@ -120,15 +149,16 @@ void	move_ants(t_env *env)
 	}
 
 }
+
+
+
 void	solve(char *filename)
 {
 	static t_env	env;
-	t_llist *map;
-	t_room *current;
 
 	parse_map(filename, &env);
 	mark_map(&env);
-	map = env.map;
 	set_weight(env.head, 2147483647);
+	print_map(filename);
 	move_ants(&env);
 }

@@ -24,6 +24,8 @@ stdarg.h
 Linked_list.h
 ../classes_lib/Linked_list.h
 
+../classes_lib/string.h
+
 ../libft/includes/ft_printf.h
 stdarg.h
 -
@@ -56,17 +58,17 @@ unistd.h
 stdarg.h
 -
 
-/home/vukolov/Documents/unit/lem-in/src/ft_print_error.c
+/Users/mvukolov/Documents/lem-in/src/ft_print_error.c
 ft_printf.h
 -
 lemin.h
-/home/vukolov/Documents/unit/lem-in/src/lemin.h
+/Users/mvukolov/Documents/lem-in/src/lemin.h
 
-/home/vukolov/Documents/unit/lem-in/src/lemin.h
+/Users/mvukolov/Documents/lem-in/src/lemin.h
 Linked_list.h
 -
 
-/home/vukolov/Documents/unit/lem-in/src/main.c
+/Users/mvukolov/Documents/lem-in/src/main.c
 stdio.h
 -
 classes_lib.h
@@ -80,9 +82,9 @@ room.h
 ft_printf.h
 -
 lemin.h
-/home/vukolov/Documents/unit/lem-in/src/lemin.h
+/Users/mvukolov/Documents/lem-in/src/lemin.h
 
-/home/vukolov/Documents/unit/lem-in/src/mark_map.c
+/Users/mvukolov/Documents/lem-in/src/mark_map.c
 queue.h
 -
 new.h
@@ -92,9 +94,9 @@ ft_printf.h
 room.h
 -
 lemin.h
-/home/vukolov/Documents/unit/lem-in/src/lemin.h
+/Users/mvukolov/Documents/lem-in/src/lemin.h
 
-/home/vukolov/Documents/unit/lem-in/src/parsing.c
+/Users/mvukolov/Documents/lem-in/src/parsing.c
 wchar.h
 -
 fcntl.h
@@ -108,23 +110,27 @@ new.h
 room.h
 -
 lemin.h
-/home/vukolov/Documents/unit/lem-in/src/lemin.h
+/Users/mvukolov/Documents/lem-in/src/lemin.h
 
-/home/vukolov/Documents/unit/lem-in/src/parsing_helper.c
+/Users/mvukolov/Documents/lem-in/src/parsing_helper.c
 
-/home/vukolov/Documents/unit/lem-in/src/room_lib.c
+/Users/mvukolov/Documents/lem-in/src/room_lib.c
 room.h
 -
 libft.h
 -
 
-/home/vukolov/Documents/unit/lem-in/src/solve.c
+/Users/mvukolov/Documents/lem-in/src/solve.c
 room.h
 -
 lemin.h
-/home/vukolov/Documents/unit/lem-in/src/lemin.h
+/Users/mvukolov/Documents/lem-in/src/lemin.h
 string.h
 -
 ft_printf.h
+-
+fcntl.h
+-
+get_next_line.h
 -
 

@@ -10,9 +10,6 @@ void 	make_classes()
 {
 	llist_init();
 	string_init();
-	point_init();
-	mlx_initiate();
-	init_image();
 	room_init();
 	queue_init();
 }

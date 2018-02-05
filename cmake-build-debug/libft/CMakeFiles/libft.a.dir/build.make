@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/vukolov/Downloads/clion-2017.3.1/bin/cmake/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/vukolov/Downloads/clion-2017.3.1/bin/cmake/bin/cmake -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vukolov/Documents/unit/lem-in
+CMAKE_SOURCE_DIR = /Users/mvukolov/Documents/lem-in
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vukolov/Documents/unit/lem-in/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/mvukolov/Documents/lem-in/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include libft/CMakeFiles/libft.a.dir/depend.make
@@ -59,16 +59,16 @@ include libft/CMakeFiles/libft.a.dir/flags.make
 
 libft/CMakeFiles/libft.a.dir/get_next_line/get_next_line.c.o: libft/CMakeFiles/libft.a.dir/flags.make
 libft/CMakeFiles/libft.a.dir/get_next_line/get_next_line.c.o: ../libft/get_next_line/get_next_line.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object libft/CMakeFiles/libft.a.dir/get_next_line/get_next_line.c.o"
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug/libft && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/get_next_line/get_next_line.c.o   -c /home/vukolov/Documents/unit/lem-in/libft/get_next_line/get_next_line.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object libft/CMakeFiles/libft.a.dir/get_next_line/get_next_line.c.o"
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/get_next_line/get_next_line.c.o   -c /Users/mvukolov/Documents/lem-in/libft/get_next_line/get_next_line.c
 
 libft/CMakeFiles/libft.a.dir/get_next_line/get_next_line.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.a.dir/get_next_line/get_next_line.c.i"
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug/libft && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/lem-in/libft/get_next_line/get_next_line.c > CMakeFiles/libft.a.dir/get_next_line/get_next_line.c.i
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/lem-in/libft/get_next_line/get_next_line.c > CMakeFiles/libft.a.dir/get_next_line/get_next_line.c.i
 
 libft/CMakeFiles/libft.a.dir/get_next_line/get_next_line.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.a.dir/get_next_line/get_next_line.c.s"
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug/libft && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/lem-in/libft/get_next_line/get_next_line.c -o CMakeFiles/libft.a.dir/get_next_line/get_next_line.c.s
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug/libft && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/lem-in/libft/get_next_line/get_next_line.c -o CMakeFiles/libft.a.dir/get_next_line/get_next_line.c.s
 
 libft/CMakeFiles/libft.a.dir/get_next_line/get_next_line.c.o.requires:
 
@@ -91,9 +91,9 @@ libft_a_EXTERNAL_OBJECTS =
 libft/liblibft.a.a: libft/CMakeFiles/libft.a.dir/get_next_line/get_next_line.c.o
 libft/liblibft.a.a: libft/CMakeFiles/libft.a.dir/build.make
 libft/liblibft.a.a: libft/CMakeFiles/libft.a.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vukolov/Documents/unit/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library liblibft.a.a"
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug/libft && $(CMAKE_COMMAND) -P CMakeFiles/libft.a.dir/cmake_clean_target.cmake
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug/libft && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libft.a.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mvukolov/Documents/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library liblibft.a.a"
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug/libft && $(CMAKE_COMMAND) -P CMakeFiles/libft.a.dir/cmake_clean_target.cmake
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug/libft && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libft.a.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 libft/CMakeFiles/libft.a.dir/build: libft/liblibft.a.a
@@ -105,10 +105,10 @@ libft/CMakeFiles/libft.a.dir/requires: libft/CMakeFiles/libft.a.dir/get_next_lin
 .PHONY : libft/CMakeFiles/libft.a.dir/requires
 
 libft/CMakeFiles/libft.a.dir/clean:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug/libft && $(CMAKE_COMMAND) -P CMakeFiles/libft.a.dir/cmake_clean.cmake
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug/libft && $(CMAKE_COMMAND) -P CMakeFiles/libft.a.dir/cmake_clean.cmake
 .PHONY : libft/CMakeFiles/libft.a.dir/clean
 
 libft/CMakeFiles/libft.a.dir/depend:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vukolov/Documents/unit/lem-in /home/vukolov/Documents/unit/lem-in/libft /home/vukolov/Documents/unit/lem-in/cmake-build-debug /home/vukolov/Documents/unit/lem-in/cmake-build-debug/libft /home/vukolov/Documents/unit/lem-in/cmake-build-debug/libft/CMakeFiles/libft.a.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mvukolov/Documents/lem-in /Users/mvukolov/Documents/lem-in/libft /Users/mvukolov/Documents/lem-in/cmake-build-debug /Users/mvukolov/Documents/lem-in/cmake-build-debug/libft /Users/mvukolov/Documents/lem-in/cmake-build-debug/libft/CMakeFiles/libft.a.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libft/CMakeFiles/libft.a.dir/depend
 

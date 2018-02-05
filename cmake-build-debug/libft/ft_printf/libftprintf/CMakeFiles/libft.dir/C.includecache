@@ -6,269 +6,269 @@
 
 #IncludeRegexTransform: 
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_atoi.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_atoi.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_bzero.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_bzero.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_dict_add.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_dict_add.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_dict_create.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_dict_create.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_dict_get.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_dict_get.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_isalnum.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_isalnum.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_isalpha.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_isalpha.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_isascii.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_isascii.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_isdigit.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_isdigit.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_isprint.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_isprint.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_isspace.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_isspace.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_itoa.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_itoa.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_itoa_base.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_itoa_base.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 stdio.h
 -
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_lstadd.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_lstadd.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_lstdel.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_lstdel.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_lstdelone.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_lstdelone.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_lstiter.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_lstiter.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_lstmap.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_lstmap.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_lstnew.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_lstnew.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_memalloc.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_memalloc.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_memccpy.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_memccpy.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_memchr.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_memchr.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_memcmp.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_memcmp.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_memcpy.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_memcpy.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_memdel.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_memdel.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_memmove.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_memmove.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_memset.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_memset.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_putchar.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_putchar.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_putchar_fd.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_putchar_fd.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_putendl.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_putendl.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_putendl_fd.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_putendl_fd.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_putnbr.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_putnbr.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_putnbr_fd.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_putnbr_fd.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_putstr.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_putstr.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_putstr_fd.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_putstr_fd.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_strcat.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_strcat.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_strchr.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_strchr.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_strclr.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_strclr.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_strcmp.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_strcmp.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_strcpy.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_strcpy.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_strdel.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_strdel.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_strdup.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_strdup.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_strequ.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_strequ.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_striter.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_striter.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_striteri.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_striteri.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_strjoin.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_strjoin.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_strlcat.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_strlcat.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_strlen.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_strlen.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_strmap.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_strmap.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_strmapi.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_strmapi.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_strncat.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_strncat.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_strncmp.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_strncmp.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_strncpy.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_strncpy.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_strndup.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_strndup.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_strnequ.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_strnequ.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_strnew.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_strnew.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_strnstr.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_strnstr.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_strrchr.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_strrchr.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_strsplit.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_strsplit.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_strstr.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_strstr.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_strsub.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_strsub.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_strtrim.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_strtrim.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_strupper.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_strupper.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_tolower.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_tolower.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/ft_toupper.c
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/ft_toupper.c
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 
-/home/vukolov/Documents/unit/lem-in/libft/ft_printf/libftprintf/libft.h
+/Users/mvukolov/Documents/lem-in/libft/ft_printf/libftprintf/libft.h
 string.h
 -
 stdlib.h

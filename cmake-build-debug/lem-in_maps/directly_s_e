@@ -1,0 +1,6 @@
+100
+##start
+r_s 23 3
+##end
+r_e 9 5
+r_s-r_e

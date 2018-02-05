@@ -37,6 +37,8 @@ static int 		is_room(char *line)
 {
 	size_t	i;
 
+    if(*line == 'L')
+        ft_print_error(INVALID_MAP);
 	i = 0;
 	while (line[i] != ' ' && line[i])
 		i++;
@@ -68,6 +70,8 @@ static void		get_head_or_end(int fd, t_env *env, char **line)
 		free(*line);
 		return;
 	}
+    if ((flag == 1 && env->head) || (flag == 2 && env->end))
+        ft_print_error(INVALID_MAP);
 	free(*line);
 	get_next_line(fd, line);
 	if (!(is_room(*line)))
@@ -219,6 +223,8 @@ void			parse_map(char *file_name, t_env *env)
 	int 	fd;
 
 	fd = open(file_name, O_RDONLY);
+	if (fd < 0)
+		ft_print_error(INVALID_MAP);
 	env->total_ants = get_ants(fd);
 	get_map_list(fd, env);
 	close(fd);

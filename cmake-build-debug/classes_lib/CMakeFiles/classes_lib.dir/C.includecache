@@ -24,113 +24,83 @@ unistd.h
 stdarg.h
 -
 
-../classes_lib/libmlx/mlx.h
+/Users/mvukolov/Documents/lem-in/classes_lib/Image.h
 
-/home/vukolov/Documents/unit/lem-in/classes_lib/Image.c
-ft_printf.h
--
+/Users/mvukolov/Documents/lem-in/classes_lib/Linked_list.c
 new.h
-/home/vukolov/Documents/unit/lem-in/classes_lib/new.h
-Image.h
-/home/vukolov/Documents/unit/lem-in/classes_lib/Image.h
-mlx.h
-/home/vukolov/Documents/unit/lem-in/classes_lib/mlx.h
-MLXConn.h
-/home/vukolov/Documents/unit/lem-in/classes_lib/MLXConn.h
-
-/home/vukolov/Documents/unit/lem-in/classes_lib/Image.h
-
-/home/vukolov/Documents/unit/lem-in/classes_lib/Linked_list.c
-new.h
-/home/vukolov/Documents/unit/lem-in/classes_lib/new.h
+/Users/mvukolov/Documents/lem-in/classes_lib/new.h
 Linked_list.h
-/home/vukolov/Documents/unit/lem-in/classes_lib/Linked_list.h
+/Users/mvukolov/Documents/lem-in/classes_lib/Linked_list.h
 
-/home/vukolov/Documents/unit/lem-in/classes_lib/Linked_list.h
+/Users/mvukolov/Documents/lem-in/classes_lib/Linked_list.h
 
-/home/vukolov/Documents/unit/lem-in/classes_lib/MLXConn.c
-MLXConn.h
-/home/vukolov/Documents/unit/lem-in/classes_lib/MLXConn.h
-new.h
-/home/vukolov/Documents/unit/lem-in/classes_lib/new.h
-mlx.h
-/home/vukolov/Documents/unit/lem-in/classes_lib/mlx.h
-libft.h
-/home/vukolov/Documents/unit/lem-in/classes_lib/libft.h
+/Users/mvukolov/Documents/lem-in/classes_lib/MLXConn.h
 
-/home/vukolov/Documents/unit/lem-in/classes_lib/MLXConn.h
+/Users/mvukolov/Documents/lem-in/classes_lib/Point.h
 
-/home/vukolov/Documents/unit/lem-in/classes_lib/Point.c
-new.h
-/home/vukolov/Documents/unit/lem-in/classes_lib/new.h
-Point.h
-/home/vukolov/Documents/unit/lem-in/classes_lib/Point.h
-
-/home/vukolov/Documents/unit/lem-in/classes_lib/Point.h
-
-/home/vukolov/Documents/unit/lem-in/classes_lib/String.c
+/Users/mvukolov/Documents/lem-in/classes_lib/String.c
 stdarg.h
 -
 libft.h
 -
 String.h
-/home/vukolov/Documents/unit/lem-in/classes_lib/String.h
+/Users/mvukolov/Documents/lem-in/classes_lib/String.h
 new.h
-/home/vukolov/Documents/unit/lem-in/classes_lib/new.h
+/Users/mvukolov/Documents/lem-in/classes_lib/new.h
 
-/home/vukolov/Documents/unit/lem-in/classes_lib/String.h
+/Users/mvukolov/Documents/lem-in/classes_lib/String.h
 
-/home/vukolov/Documents/unit/lem-in/classes_lib/init_classes.c
+/Users/mvukolov/Documents/lem-in/classes_lib/init_classes.c
 String.h
-/home/vukolov/Documents/unit/lem-in/classes_lib/String.h
+/Users/mvukolov/Documents/lem-in/classes_lib/String.h
 Point.h
-/home/vukolov/Documents/unit/lem-in/classes_lib/Point.h
+/Users/mvukolov/Documents/lem-in/classes_lib/Point.h
 MLXConn.h
-/home/vukolov/Documents/unit/lem-in/classes_lib/MLXConn.h
+/Users/mvukolov/Documents/lem-in/classes_lib/MLXConn.h
 Image.h
-/home/vukolov/Documents/unit/lem-in/classes_lib/Image.h
+/Users/mvukolov/Documents/lem-in/classes_lib/Image.h
 Linked_list.h
-/home/vukolov/Documents/unit/lem-in/classes_lib/Linked_list.h
+/Users/mvukolov/Documents/lem-in/classes_lib/Linked_list.h
 room.h
-/home/vukolov/Documents/unit/lem-in/classes_lib/room.h
+/Users/mvukolov/Documents/lem-in/classes_lib/room.h
 queue.h
-/home/vukolov/Documents/unit/lem-in/classes_lib/queue.h
+/Users/mvukolov/Documents/lem-in/classes_lib/queue.h
 
-/home/vukolov/Documents/unit/lem-in/classes_lib/new.c
+/Users/mvukolov/Documents/lem-in/classes_lib/new.c
 stdlib.h
 -
 new.h
-/home/vukolov/Documents/unit/lem-in/classes_lib/new.h
+/Users/mvukolov/Documents/lem-in/classes_lib/new.h
 
-/home/vukolov/Documents/unit/lem-in/classes_lib/new.h
+/Users/mvukolov/Documents/lem-in/classes_lib/new.h
 stddef.h
 -
 stdarg.h
 -
 
-/home/vukolov/Documents/unit/lem-in/classes_lib/queue.c
+/Users/mvukolov/Documents/lem-in/classes_lib/queue.c
 queue.h
-/home/vukolov/Documents/unit/lem-in/classes_lib/queue.h
+/Users/mvukolov/Documents/lem-in/classes_lib/queue.h
 new.h
-/home/vukolov/Documents/unit/lem-in/classes_lib/new.h
+/Users/mvukolov/Documents/lem-in/classes_lib/new.h
 string.h
 -
 Linked_list.h
-/home/vukolov/Documents/unit/lem-in/classes_lib/Linked_list.h
+/Users/mvukolov/Documents/lem-in/classes_lib/Linked_list.h
 
-/home/vukolov/Documents/unit/lem-in/classes_lib/queue.h
+/Users/mvukolov/Documents/lem-in/classes_lib/queue.h
 
-/home/vukolov/Documents/unit/lem-in/classes_lib/room.c
+/Users/mvukolov/Documents/lem-in/classes_lib/room.c
 libft.h
 -
 ft_printf.h
 -
 new.h
-/home/vukolov/Documents/unit/lem-in/classes_lib/new.h
+/Users/mvukolov/Documents/lem-in/classes_lib/new.h
 room.h
-/home/vukolov/Documents/unit/lem-in/classes_lib/room.h
+/Users/mvukolov/Documents/lem-in/classes_lib/room.h
 
-/home/vukolov/Documents/unit/lem-in/classes_lib/room.h
+/Users/mvukolov/Documents/lem-in/classes_lib/room.h
 Linked_list.h
-/home/vukolov/Documents/unit/lem-in/classes_lib/Linked_list.h
+/Users/mvukolov/Documents/lem-in/classes_lib/Linked_list.h
 

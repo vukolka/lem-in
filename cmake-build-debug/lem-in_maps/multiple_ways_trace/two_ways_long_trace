@@ -1,0 +1,28 @@
+3
+##start
+rs 1 0
+##end
+re 5 0
+s1 9 0
+s2 13 0
+s3 15 5
+s4 14 5
+s5 5 5
+s6 6 6
+s7 7 7
+s8 8 8
+s9 9 9
+s1-s2
+s3-s4
+s4-s5
+s5-s6
+rs-s1
+rs-s3
+s6-re
+s2-re
+
+L1-s1
+L1-s2 L2-s1
+L1-re L2-s2 L3-s1
+L2-re L3-s2
+L3-re

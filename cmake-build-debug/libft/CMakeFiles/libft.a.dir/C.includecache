@@ -16,15 +16,15 @@ unistd.h
 stdarg.h
 -
 
-/home/vukolov/Documents/unit/lem-in/libft/get_next_line/get_next_line.c
+/Users/mvukolov/Documents/lem-in/libft/get_next_line/get_next_line.c
 get_next_line.h
-/home/vukolov/Documents/unit/lem-in/libft/get_next_line/get_next_line.h
+/Users/mvukolov/Documents/lem-in/libft/get_next_line/get_next_line.h
 libft.h
-/home/vukolov/Documents/unit/lem-in/libft/get_next_line/libft.h
+/Users/mvukolov/Documents/lem-in/libft/get_next_line/libft.h
 stdio.h
 -
 
-/home/vukolov/Documents/unit/lem-in/libft/get_next_line/get_next_line.h
+/Users/mvukolov/Documents/lem-in/libft/get_next_line/get_next_line.h
 sys/types.h
 -
 sys/uio.h

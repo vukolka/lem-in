@@ -4,17 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/vukolov/Documents/unit/lem-in/classes_lib/Image.c" "/home/vukolov/Documents/unit/lem-in/cmake-build-debug/classes_lib/CMakeFiles/classes_lib.dir/Image.c.o"
-  "/home/vukolov/Documents/unit/lem-in/classes_lib/Linked_list.c" "/home/vukolov/Documents/unit/lem-in/cmake-build-debug/classes_lib/CMakeFiles/classes_lib.dir/Linked_list.c.o"
-  "/home/vukolov/Documents/unit/lem-in/classes_lib/MLXConn.c" "/home/vukolov/Documents/unit/lem-in/cmake-build-debug/classes_lib/CMakeFiles/classes_lib.dir/MLXConn.c.o"
-  "/home/vukolov/Documents/unit/lem-in/classes_lib/Point.c" "/home/vukolov/Documents/unit/lem-in/cmake-build-debug/classes_lib/CMakeFiles/classes_lib.dir/Point.c.o"
-  "/home/vukolov/Documents/unit/lem-in/classes_lib/String.c" "/home/vukolov/Documents/unit/lem-in/cmake-build-debug/classes_lib/CMakeFiles/classes_lib.dir/String.c.o"
-  "/home/vukolov/Documents/unit/lem-in/classes_lib/init_classes.c" "/home/vukolov/Documents/unit/lem-in/cmake-build-debug/classes_lib/CMakeFiles/classes_lib.dir/init_classes.c.o"
-  "/home/vukolov/Documents/unit/lem-in/classes_lib/new.c" "/home/vukolov/Documents/unit/lem-in/cmake-build-debug/classes_lib/CMakeFiles/classes_lib.dir/new.c.o"
-  "/home/vukolov/Documents/unit/lem-in/classes_lib/queue.c" "/home/vukolov/Documents/unit/lem-in/cmake-build-debug/classes_lib/CMakeFiles/classes_lib.dir/queue.c.o"
-  "/home/vukolov/Documents/unit/lem-in/classes_lib/room.c" "/home/vukolov/Documents/unit/lem-in/cmake-build-debug/classes_lib/CMakeFiles/classes_lib.dir/room.c.o"
+  "/Users/mvukolov/Documents/lem-in/classes_lib/Linked_list.c" "/Users/mvukolov/Documents/lem-in/cmake-build-debug/classes_lib/CMakeFiles/classes_lib.dir/Linked_list.c.o"
+  "/Users/mvukolov/Documents/lem-in/classes_lib/String.c" "/Users/mvukolov/Documents/lem-in/cmake-build-debug/classes_lib/CMakeFiles/classes_lib.dir/String.c.o"
+  "/Users/mvukolov/Documents/lem-in/classes_lib/init_classes.c" "/Users/mvukolov/Documents/lem-in/cmake-build-debug/classes_lib/CMakeFiles/classes_lib.dir/init_classes.c.o"
+  "/Users/mvukolov/Documents/lem-in/classes_lib/new.c" "/Users/mvukolov/Documents/lem-in/cmake-build-debug/classes_lib/CMakeFiles/classes_lib.dir/new.c.o"
+  "/Users/mvukolov/Documents/lem-in/classes_lib/queue.c" "/Users/mvukolov/Documents/lem-in/cmake-build-debug/classes_lib/CMakeFiles/classes_lib.dir/queue.c.o"
+  "/Users/mvukolov/Documents/lem-in/classes_lib/room.c" "/Users/mvukolov/Documents/lem-in/cmake-build-debug/classes_lib/CMakeFiles/classes_lib.dir/room.c.o"
   )
-set(CMAKE_C_COMPILER_ID "GNU")
+set(CMAKE_C_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH

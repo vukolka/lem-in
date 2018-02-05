@@ -1,10 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/classes_lib.dir/new.c.o"
-  "CMakeFiles/classes_lib.dir/Point.c.o"
   "CMakeFiles/classes_lib.dir/String.c.o"
   "CMakeFiles/classes_lib.dir/init_classes.c.o"
-  "CMakeFiles/classes_lib.dir/MLXConn.c.o"
-  "CMakeFiles/classes_lib.dir/Image.c.o"
   "CMakeFiles/classes_lib.dir/Linked_list.c.o"
   "CMakeFiles/classes_lib.dir/room.c.o"
   "CMakeFiles/classes_lib.dir/queue.c.o"

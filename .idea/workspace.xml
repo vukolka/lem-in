@@ -2,11 +2,11 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="lem-in" targetName="classes_lib" />
-      <config projectName="lem-in" targetName="libft" />
       <config projectName="lem-in" targetName="libft.a" />
-      <config projectName="lem-in" targetName="lem-in" />
+      <config projectName="lem-in" targetName="libft" />
+      <config projectName="lem-in" targetName="classes_lib" />
       <config projectName="lem-in" targetName="ft_printf" />
+      <config projectName="lem-in" targetName="lem-in" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -16,32 +16,317 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4824130e-7206-4601-938a-ab0762b745f2" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/solve.c" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.4/CMakeDetermineCompilerABI_C.bin" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.4/CMakeDetermineCompilerABI_CXX.bin" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.4/CMakeSystem.cmake" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/100_map_0" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/ant_size/char_bit" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/ant_size/char_max" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/ant_size/int_max" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/ant_size/short_max" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/ant_size/uchar_max" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/ant_size/uint_max" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/ant_size/ushort_max" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/ant_size_trace/char_bit_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/ant_size_trace/char_max_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/ant_size_trace/short_max_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/ant_size_trace/uchar_max_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/ant_size_trace/uint_max_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/ant_size_trace/ushort_max_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/big_maps/map100k-m" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/big_maps/map200k-m" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/big_maps/map50k-1000m" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/big_maps/map50k-300m" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/big_maps/map50k-m" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/cmd/cmd_after_ant" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/cmd/cmd_after_end" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/cmd/cmd_after_pipes" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/cmd/cmd_after_rooms" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/cmd/cmd_after_start" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/cmd/cmd_b_a_ant" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/cmd/cmd_b_a_pipes" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/cmd/cmd_b_a_rooms" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/cmd/cmd_before_ant" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/cmd/cmd_before_end" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/cmd/cmd_before_pipes" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/cmd/cmd_before_rooms" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/cmd/cmd_before_start" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/cmd/cmd_mass_pipes" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/cmd/cmd_mass_rooms" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/cmd_trace/cmd_after_ant_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/cmd_trace/cmd_after_end_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/cmd_trace/cmd_after_pipes_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/cmd_trace/cmd_after_rooms_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/cmd_trace/cmd_after_start_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/cmd_trace/cmd_b_a_ant_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/cmd_trace/cmd_b_a_pipes_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/cmd_trace/cmd_b_a_rooms_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/cmd_trace/cmd_before_ant_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/cmd_trace/cmd_before_end_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/cmd_trace/cmd_before_pipes_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/cmd_trace/cmd_before_rooms_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/cmd_trace/cmd_before_start_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/cmd_trace/cmd_mass_pipes_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/cmd_trace/cmd_mass_rooms_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/comment/comment_###" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/comment/comment_###2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/comment/comment_after_ant" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/comment/comment_after_end" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/comment/comment_after_end2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/comment/comment_after_pipes" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/comment/comment_after_rooms" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/comment/comment_after_start" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/comment/comment_after_start2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/comment/comment_b_a_pipes" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/comment/comment_b_a_rooms" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/comment/comment_before_ant" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/comment/comment_before_ant2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/comment/comment_before_end" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/comment/comment_before_pipes" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/comment/comment_before_rooms" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/comment/comment_before_start" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/comment/comment_mass_pipes" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/comment/comment_mass_rooms" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/comment/comment_pipe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/comment/comment_room" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/comment_trace/comment_###2_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/comment_trace/comment_###_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/comment_trace/comment_after_ant_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/comment_trace/comment_after_end2_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/comment_trace/comment_after_end_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/comment_trace/comment_after_pipes_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/comment_trace/comment_after_rooms_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/comment_trace/comment_after_start2_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/comment_trace/comment_after_start_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/comment_trace/comment_b_a_pipes_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/comment_trace/comment_b_a_rooms_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/comment_trace/comment_before_ant2_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/comment_trace/comment_before_ant_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/comment_trace/comment_before_end_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/comment_trace/comment_before_pipes_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/comment_trace/comment_before_rooms_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/comment_trace/comment_before_start_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/comment_trace/comment_mass_pipes_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/comment_trace/comment_mass_rooms_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/comment_trace/comment_pipe_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/comment_trace/comment_room_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/directly_s_e" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/error/error_ants/alpha_ant" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/error/error_ants/alphanum_ant" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/error/error_ants/backn_ant" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/error/error_ants/no_ant" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/error/error_ants/space_ant" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/error/error_ants/zero_ant" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/error/error_bad_line/bad_line_ant_0" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/error/error_bad_line/bad_line_ant_1" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/error/error_bad_line/bad_line_ant_2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/error/error_bad_line/bad_line_room_0" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/error/error_bad_line/bad_line_room_1" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/error/error_bad_line/bad_line_room_2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/error/error_bad_line/bad_line_room_3" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/error/error_bad_line/bad_line_room_4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/error/error_bad_line/bad_line_room_5" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/error/error_bad_line/bad_line_room_6" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/error/error_bad_line/bad_line_room_7" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/error/error_bad_line/bad_line_room_8" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/error/error_bad_line/bad_line_start_0" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/error/error_bad_line/bad_line_start_1" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/error/error_bad_line/bad_line_start_2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/error/error_rooms/Lroom" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/error/error_rooms/no_pipe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/error/error_rooms/no_room" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/error/error_rooms/same_coo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/error/error_rooms/same_room" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/error/error_rooms/same_room2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/error/error_rooms/space_after_room" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/error/error_rooms/space_before_room" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/error/error_rooms/space_middle_room" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/error/error_start_end/multi_end" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/error/error_start_end/multi_start" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/error/error_start_end/no_access_end" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/error/error_start_end/no_end" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/error/error_start_end/no_path_start" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/error/error_start_end/no_start" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/error/no_way/no_way0" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/error/no_way/no_way1" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/error/no_way/no_way10" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/error/no_way/no_way2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/error/no_way/no_way4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/error/no_way/no_way5" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/error/no_way/no_way6" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/error/no_way/no_way7" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/error/no_way/no_way8" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/error/no_way/no_way9" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/map_6" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/map_test0" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/map_test2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/multiple_ways/four_ways" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/multiple_ways/three_ways" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/multiple_ways/two_ways" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/multiple_ways/two_ways_collision" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/multiple_ways/two_ways_long" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/multiple_ways_trace/three_ways_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/multiple_ways_trace/two_ways_collision_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/multiple_ways_trace/two_ways_long_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/multiple_ways_trace/two_ways_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/pipes_error/bad_line_pipe_0" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/pipes_error/bad_line_pipe_1" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/pipes_error/bad_line_pipe_10" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/pipes_error/bad_line_pipe_11" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/pipes_error/bad_line_pipe_12" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/pipes_error/bad_line_pipe_13" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/pipes_error/bad_line_pipe_14" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/pipes_error/bad_line_pipe_2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/pipes_error/bad_line_pipe_3" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/pipes_error/bad_line_pipe_4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/pipes_error/bad_line_pipe_5" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/pipes_error/bad_line_pipe_6" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/pipes_error/bad_line_pipe_7" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/pipes_error/bad_line_pipe_8" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/pipes_error/bad_line_pipe_9" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/pipes_error/error_middle_pipe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/pipes_error/pipe_to_itself" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/pipes_error/same_pipe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/pipes_error/same_pipe2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/pipes_error/same_pipe3" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/pipes_error/space_middle_pipe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/pipes_error_trace/bad_line_pipe_0_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/pipes_error_trace/bad_line_pipe_10_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/pipes_error_trace/bad_line_pipe_11_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/pipes_error_trace/bad_line_pipe_12_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/pipes_error_trace/bad_line_pipe_13_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/pipes_error_trace/bad_line_pipe_14_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/pipes_error_trace/bad_line_pipe_1_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/pipes_error_trace/bad_line_pipe_2_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/pipes_error_trace/bad_line_pipe_3_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/pipes_error_trace/bad_line_pipe_4_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/pipes_error_trace/bad_line_pipe_5_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/pipes_error_trace/bad_line_pipe_6_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/pipes_error_trace/bad_line_pipe_7_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/pipes_error_trace/bad_line_pipe_8_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/pipes_error_trace/bad_line_pipe_9_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/pipes_error_trace/error_middle_pipe_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/pipes_error_trace/pipe_to_itself_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/pipes_error_trace/same_pipe2_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/pipes_error_trace/same_pipe3_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/pipes_error_trace/same_pipe_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/pipes_error_trace/space_middle_pipe_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/valid_maps_part_1_trace/1000_map_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/valid_maps_part_1_trace/100_map_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/valid_maps_part_1_trace/200_map_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/valid_maps_part_1_trace/300_map_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/valid_maps_part_1_trace/400_map_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/valid_maps_part_1_trace/500_map_alt_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/valid_maps_part_1_trace/500_map_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/valid_maps_part_2/01for10" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/valid_maps_part_2/02for10" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/valid_maps_part_2/03for10" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/valid_maps_part_2/04for10" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/valid_maps_part_2/05for10" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/valid_maps_part_2/06for10" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/valid_maps_part_2/07for10" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/valid_maps_part_2/08for10" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/valid_maps_part_2/09for10" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/valid_maps_part_2/10for10" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/valid_maps_part_2_trace/01for10_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/valid_maps_part_2_trace/02for10_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/valid_maps_part_2_trace/03for10_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/valid_maps_part_2_trace/04for10_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/valid_maps_part_2_trace/05for10_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/valid_maps_part_2_trace/06for10_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/valid_maps_part_2_trace/07for10_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/valid_maps_part_2_trace/08for10_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/valid_maps_part_2_trace/09for10_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/valid_maps_part_2_trace/10for10_trace" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lem-in_test" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
       <change beforePath="$PROJECT_DIR$/classes_lib/CMakeLists.txt" afterPath="$PROJECT_DIR$/classes_lib/CMakeLists.txt" />
-      <change beforePath="$PROJECT_DIR$/classes_lib/libmlx" afterPath="$PROJECT_DIR$/classes_lib/libmlx" />
+      <change beforePath="$PROJECT_DIR$/classes_lib/init_classes.c" afterPath="$PROJECT_DIR$/classes_lib/init_classes.c" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeCCompiler.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.4/CMakeCCompiler.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeCXXCompiler.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.4/CMakeCXXCompiler.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeDetermineCompilerABI_C.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeDetermineCompilerABI_CXX.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeSystem.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdC/CMakeCCompilerId.c" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.4/CompilerIdC/CMakeCCompilerId.c" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in.dir/C.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in.dir/C.includecache" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in.dir/DependInfo.cmake" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in.dir/build.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in.dir/cmake_clean.cmake" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in.dir/depend.internal" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in.dir/depend.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in.dir/flags.make" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in.dir/link.txt" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in.dir/progress.make" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Project.cbp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/classes_lib/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/classes_lib/CMakeFiles/CMakeDirectoryInformation.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/classes_lib/CMakeFiles/classes_lib.dir/C.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/classes_lib/CMakeFiles/classes_lib.dir/C.includecache" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/classes_lib/CMakeFiles/classes_lib.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/classes_lib/CMakeFiles/classes_lib.dir/DependInfo.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/classes_lib/CMakeFiles/classes_lib.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/classes_lib/CMakeFiles/classes_lib.dir/build.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/classes_lib/CMakeFiles/classes_lib.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/classes_lib/CMakeFiles/classes_lib.dir/cmake_clean.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/classes_lib/CMakeFiles/classes_lib.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/classes_lib/CMakeFiles/classes_lib.dir/depend.internal" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/classes_lib/CMakeFiles/classes_lib.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/classes_lib/CMakeFiles/classes_lib.dir/depend.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/classes_lib/CMakeFiles/classes_lib.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/classes_lib/CMakeFiles/classes_lib.dir/flags.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/classes_lib/CMakeFiles/classes_lib.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/classes_lib/CMakeFiles/classes_lib.dir/link.txt" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/classes_lib/CMakeFiles/classes_lib.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/classes_lib/CMakeFiles/classes_lib.dir/progress.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/classes_lib/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/classes_lib/CMakeFiles/progress.marks" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/classes_lib/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/classes_lib/Makefile" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/classes_lib/classes_lib.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/classes_lib/classes_lib.cbp" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/classes_lib/cmake_install.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/classes_lib/cmake_install.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lem-in" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lem-in.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in.cbp" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libft/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/libft/CMakeFiles/CMakeDirectoryInformation.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libft/CMakeFiles/libft.a.dir/C.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/libft/CMakeFiles/libft.a.dir/C.includecache" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libft/CMakeFiles/libft.a.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/libft/CMakeFiles/libft.a.dir/DependInfo.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libft/CMakeFiles/libft.a.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/libft/CMakeFiles/libft.a.dir/build.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libft/CMakeFiles/libft.a.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/libft/CMakeFiles/libft.a.dir/depend.internal" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libft/CMakeFiles/libft.a.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/libft/CMakeFiles/libft.a.dir/flags.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libft/CMakeFiles/libft.a.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/libft/CMakeFiles/libft.a.dir/link.txt" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/libft/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/libft/CMakeFiles/progress.marks" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libft/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/libft/Makefile" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libft/cmake_install.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/libft/cmake_install.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libft/ft_printf/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/libft/ft_printf/CMakeFiles/CMakeDirectoryInformation.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libft/ft_printf/CMakeFiles/ft_printf.dir/C.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/libft/ft_printf/CMakeFiles/ft_printf.dir/C.includecache" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libft/ft_printf/CMakeFiles/ft_printf.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/libft/ft_printf/CMakeFiles/ft_printf.dir/DependInfo.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libft/ft_printf/CMakeFiles/ft_printf.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/libft/ft_printf/CMakeFiles/ft_printf.dir/build.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libft/ft_printf/CMakeFiles/ft_printf.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/libft/ft_printf/CMakeFiles/ft_printf.dir/depend.internal" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libft/ft_printf/CMakeFiles/ft_printf.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/libft/ft_printf/CMakeFiles/ft_printf.dir/flags.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libft/ft_printf/CMakeFiles/ft_printf.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/libft/ft_printf/CMakeFiles/ft_printf.dir/link.txt" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/libft/ft_printf/CMakeFiles/ft_printf.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/libft/ft_printf/CMakeFiles/ft_printf.dir/progress.make" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/libft/ft_printf/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/libft/ft_printf/CMakeFiles/progress.marks" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libft/ft_printf/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/libft/ft_printf/Makefile" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libft/ft_printf/cmake_install.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/libft/ft_printf/cmake_install.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libft/ft_printf/ft_printf.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/libft/ft_printf/ft_printf.cbp" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libft/ft_printf/libftprintf/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/libft/ft_printf/libftprintf/CMakeFiles/CMakeDirectoryInformation.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libft/ft_printf/libftprintf/CMakeFiles/libft.dir/C.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/libft/ft_printf/libftprintf/CMakeFiles/libft.dir/C.includecache" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libft/ft_printf/libftprintf/CMakeFiles/libft.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/libft/ft_printf/libftprintf/CMakeFiles/libft.dir/DependInfo.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libft/ft_printf/libftprintf/CMakeFiles/libft.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/libft/ft_printf/libftprintf/CMakeFiles/libft.dir/build.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libft/ft_printf/libftprintf/CMakeFiles/libft.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/libft/ft_printf/libftprintf/CMakeFiles/libft.dir/depend.internal" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libft/ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/libft/ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libft/ft_printf/libftprintf/CMakeFiles/libft.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/libft/ft_printf/libftprintf/CMakeFiles/libft.dir/link.txt" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/libft/ft_printf/libftprintf/CMakeFiles/libft.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/libft/ft_printf/libftprintf/CMakeFiles/libft.dir/progress.make" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/libft/ft_printf/libftprintf/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/libft/ft_printf/libftprintf/CMakeFiles/progress.marks" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/lemin.h" afterPath="$PROJECT_DIR$/src/lemin.h" />
-      <change beforePath="$PROJECT_DIR$/src/main.c" afterPath="$PROJECT_DIR$/src/main.c" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libft/ft_printf/libftprintf/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/libft/ft_printf/libftprintf/Makefile" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libft/ft_printf/libftprintf/cmake_install.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/libft/ft_printf/libftprintf/cmake_install.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libft/ft_printf/libftprintf/libftprintf.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/libft/ft_printf/libftprintf/libftprintf.cbp" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libft/libft.a.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/libft/libft.a.cbp" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test_maps/map1.lemin" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/big_maps/map20k-m" />
+      <change beforePath="$PROJECT_DIR$/src/parsing.c" afterPath="$PROJECT_DIR$/src/parsing.c" />
+      <change beforePath="$PROJECT_DIR$/src/solve.c" afterPath="$PROJECT_DIR$/src/solve.c" />
+      <change beforePath="$PROJECT_DIR$/testing/mytest" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testing/test" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/multiple_ways_trace/four_ways_trace" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,20 +338,38 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="solve.c" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/solve.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#17#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="solve.c" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/solve.c">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="561">
+                  <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+                  <folding>
+                    <element signature="e#0#17#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="lemin.h" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/lemin.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="510">
+                  <caret line="30" column="38" lean-forward="false" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -97,17 +400,18 @@
         <option value="$PROJECT_DIR$/classes_lib/room.h" />
         <option value="$PROJECT_DIR$/classes_lib/room.c" />
         <option value="$PROJECT_DIR$/src/mark_map.c" />
-        <option value="$PROJECT_DIR$/classes_lib/init_classes.c" />
         <option value="$PROJECT_DIR$/src/parsing_helper.c" />
-        <option value="$PROJECT_DIR$/src/parsing.c" />
         <option value="$PROJECT_DIR$/testing/mytest" />
         <option value="$PROJECT_DIR$/testing/test" />
         <option value="$PROJECT_DIR$/cmake-build-debug/test.txt" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/classes_lib/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/src/main.c" />
         <option value="$PROJECT_DIR$/src/lemin.h" />
         <option value="$PROJECT_DIR$/cmake-build-debug/test_maps/map1.lemin" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/classes_lib/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/classes_lib/init_classes.c" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/lem-in_maps/error/error_rooms/same_room" />
+        <option value="$PROJECT_DIR$/src/parsing.c" />
         <option value="$PROJECT_DIR$/src/solve.c" />
       </list>
     </option>
@@ -119,11 +423,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="-1367" />
-    <option name="y" value="-35" />
-    <option name="width" value="1368" />
-    <option name="height" value="804" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="2560" />
+    <option name="height" value="1440" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -150,40 +452,7 @@
             <path>
               <item name="lem-in" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
               <item name="lem-in" type="462c0819:PsiDirectoryNode" />
-              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lem-in" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="lem-in" type="462c0819:PsiDirectoryNode" />
-              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
-              <item name="test_maps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lem-in" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="lem-in" type="462c0819:PsiDirectoryNode" />
-              <item name="libft" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lem-in" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="lem-in" type="462c0819:PsiDirectoryNode" />
-              <item name="libft" type="462c0819:PsiDirectoryNode" />
-              <item name="get_next_line" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lem-in" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="lem-in" type="462c0819:PsiDirectoryNode" />
-              <item name="libft" type="462c0819:PsiDirectoryNode" />
-              <item name="includes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lem-in" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="lem-in" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lem-in" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="lem-in" type="462c0819:PsiDirectoryNode" />
-              <item name="testing" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -192,7 +461,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
@@ -214,7 +483,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Build All">
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="test_maps/map1.lemin" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lem-in" RUN_TARGET_NAME="lem-in" EXPLICIT_BUILD_TARGET_NAME="all">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="lem-in_maps/valid_maps_part_2/01for10" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lem-in" RUN_TARGET_NAME="lem-in" EXPLICIT_BUILD_TARGET_NAME="all">
       <envs />
     </configuration>
     <configuration name="classes_lib" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lem-in" TARGET_NAME="classes_lib" CONFIG_NAME="Debug">
@@ -261,54 +530,58 @@
       <workItem from="1517321351333" duration="691000" />
       <workItem from="1517335872255" duration="15413000" />
       <workItem from="1517393391800" duration="3636000" />
+      <workItem from="1517829944259" duration="1736000" />
+      <workItem from="1517833220671" duration="95000" />
+      <workItem from="1517844765356" duration="32000" />
+      <workItem from="1517844812656" duration="875000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52168000" />
+    <option name="totallyTimeSpent" value="54906000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1367" y="-35" width="1368" height="804" extended-state="6" />
+    <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16837482" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31640625" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12109375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31527779" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32775453" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.421875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36458334" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27708334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292969" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36402878" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31659693" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31527779" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32775453" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52859133" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16837482" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27708334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292969" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12109375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36541143" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36402878" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,27 +613,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/libft/ft_printf/libftprintf/ft_isalnum.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libft/ft_printf/ft_printf/parse_modifiers.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="25" column="4" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes_lib/Image.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libft/ft_printf/libftprintf/ft_strcmp.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -496,14 +748,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ant.h" />
     <entry file="file://$PROJECT_DIR$/src/get_solutions.c" />
-    <entry file="file://$PROJECT_DIR$/classes_lib/classes_lib.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classes_lib/Linked_list.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -543,7 +787,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -553,17 +796,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes_lib/init_classes.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#19#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -578,95 +810,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/parsing.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="709">
-          <caret line="199" column="6" lean-forward="false" selection-start-line="199" selection-start-column="6" selection-end-line="199" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes_lib/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/room_lib.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="33" column="19" lean-forward="false" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/mytest">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/test">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lemin.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="41" lean-forward="false" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ft_print_error.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/test.txt" />
+    <entry file="file://$PROJECT_DIR$/testing/mytest" />
+    <entry file="file://$PROJECT_DIR$/testing/test" />
     <entry file="file://$PROJECT_DIR$/libft/get_next_line/get_next_line.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -674,22 +827,102 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="358">
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/test_maps/map1.lemin" />
+    <entry file="file://$PROJECT_DIR$/classes_lib/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes_lib/classes_lib.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes_lib/init_classes.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libft/ft_printf/libftprintf/ft_atoi.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/lem-in_maps/valid_maps_part_2/01for10">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ft_print_error.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/test_maps/map1.lemin">
+    <entry file="file://$PROJECT_DIR$/src/room_lib.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="59830" column="0" lean-forward="true" selection-start-line="59830" selection-start-column="0" selection-end-line="59830" selection-end-column="0" />
+        <state relative-caret-position="561">
+          <caret line="33" column="19" lean-forward="false" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/lem-in_maps/error/error_rooms/same_room">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parsing.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-617">
+          <caret line="116" column="19" lean-forward="false" selection-start-line="116" selection-start-column="19" selection-end-line="116" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lemin.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="38" lean-forward="false" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/solve.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+        <state relative-caret-position="561">
+          <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
           </folding>

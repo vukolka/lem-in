@@ -1,0 +1,20 @@
+100
+##start
+rs 1 0
+##end
+re 5 0
+s1 1 1
+s2 2 2
+s3 3 3
+s4 4 4
+s5 5 5
+s6 6 6
+rs-s1
+rs-s3
+rs-s5
+s1-s2
+s3-s4
+s5-s6
+s2-re
+s4-re
+s6-re

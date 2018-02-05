@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/vukolov/Downloads/clion-2017.3.1/bin/cmake/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/vukolov/Downloads/clion-2017.3.1/bin/cmake/bin/cmake -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vukolov/Documents/unit/lem-in
+CMAKE_SOURCE_DIR = /Users/mvukolov/Documents/lem-in
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vukolov/Documents/unit/lem-in/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/mvukolov/Documents/lem-in/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/vukolov/Documents/unit/lem-in/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/vukolov/Downloads/clion-2017.3.1/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/vukolov/Downloads/clion-2017.3.1/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/vukolov/Documents/unit/lem-in/cmake-build-debug/CMakeFiles /home/vukolov/Documents/unit/lem-in/cmake-build-debug/libft/ft_printf/CMakeFiles/progress.marks
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 libft/ft_printf/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vukolov/Documents/unit/lem-in/cmake-build-debug/CMakeFiles 0
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/mvukolov/Documents/lem-in/cmake-build-debug/CMakeFiles /Users/mvukolov/Documents/lem-in/cmake-build-debug/libft/ft_printf/CMakeFiles/progress.marks
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 libft/ft_printf/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mvukolov/Documents/lem-in/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 libft/ft_printf/clean
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 libft/ft_printf/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 libft/ft_printf/preinstall
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 libft/ft_printf/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 libft/ft_printf/preinstall
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 libft/ft_printf/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libft/ft_printf/CMakeFiles/ft_printf.dir/rule:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 libft/ft_printf/CMakeFiles/ft_printf.dir/rule
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 libft/ft_printf/CMakeFiles/ft_printf.dir/rule
 .PHONY : libft/ft_printf/CMakeFiles/ft_printf.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ ft_printf: libft/ft_printf/CMakeFiles/ft_printf.dir/rule
 
 # fast build rule for target.
 ft_printf/fast:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/build
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/build
 .PHONY : ft_printf/fast
 
 ft_printf/apply_flags.o: ft_printf/apply_flags.c.o
@@ -131,7 +131,7 @@ ft_printf/apply_flags.o: ft_printf/apply_flags.c.o
 
 # target to build an object file
 ft_printf/apply_flags.c.o:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/apply_flags.c.o
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/apply_flags.c.o
 .PHONY : ft_printf/apply_flags.c.o
 
 ft_printf/apply_flags.i: ft_printf/apply_flags.c.i
@@ -140,7 +140,7 @@ ft_printf/apply_flags.i: ft_printf/apply_flags.c.i
 
 # target to preprocess a source file
 ft_printf/apply_flags.c.i:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/apply_flags.c.i
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/apply_flags.c.i
 .PHONY : ft_printf/apply_flags.c.i
 
 ft_printf/apply_flags.s: ft_printf/apply_flags.c.s
@@ -149,7 +149,7 @@ ft_printf/apply_flags.s: ft_printf/apply_flags.c.s
 
 # target to generate assembly for a file
 ft_printf/apply_flags.c.s:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/apply_flags.c.s
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/apply_flags.c.s
 .PHONY : ft_printf/apply_flags.c.s
 
 ft_printf/apply_flags2.o: ft_printf/apply_flags2.c.o
@@ -158,7 +158,7 @@ ft_printf/apply_flags2.o: ft_printf/apply_flags2.c.o
 
 # target to build an object file
 ft_printf/apply_flags2.c.o:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/apply_flags2.c.o
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/apply_flags2.c.o
 .PHONY : ft_printf/apply_flags2.c.o
 
 ft_printf/apply_flags2.i: ft_printf/apply_flags2.c.i
@@ -167,7 +167,7 @@ ft_printf/apply_flags2.i: ft_printf/apply_flags2.c.i
 
 # target to preprocess a source file
 ft_printf/apply_flags2.c.i:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/apply_flags2.c.i
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/apply_flags2.c.i
 .PHONY : ft_printf/apply_flags2.c.i
 
 ft_printf/apply_flags2.s: ft_printf/apply_flags2.c.s
@@ -176,7 +176,7 @@ ft_printf/apply_flags2.s: ft_printf/apply_flags2.c.s
 
 # target to generate assembly for a file
 ft_printf/apply_flags2.c.s:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/apply_flags2.c.s
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/apply_flags2.c.s
 .PHONY : ft_printf/apply_flags2.c.s
 
 ft_printf/apply_format.o: ft_printf/apply_format.c.o
@@ -185,7 +185,7 @@ ft_printf/apply_format.o: ft_printf/apply_format.c.o
 
 # target to build an object file
 ft_printf/apply_format.c.o:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/apply_format.c.o
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/apply_format.c.o
 .PHONY : ft_printf/apply_format.c.o
 
 ft_printf/apply_format.i: ft_printf/apply_format.c.i
@@ -194,7 +194,7 @@ ft_printf/apply_format.i: ft_printf/apply_format.c.i
 
 # target to preprocess a source file
 ft_printf/apply_format.c.i:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/apply_format.c.i
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/apply_format.c.i
 .PHONY : ft_printf/apply_format.c.i
 
 ft_printf/apply_format.s: ft_printf/apply_format.c.s
@@ -203,7 +203,7 @@ ft_printf/apply_format.s: ft_printf/apply_format.c.s
 
 # target to generate assembly for a file
 ft_printf/apply_format.c.s:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/apply_format.c.s
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/apply_format.c.s
 .PHONY : ft_printf/apply_format.c.s
 
 ft_printf/ft_conncat.o: ft_printf/ft_conncat.c.o
@@ -212,7 +212,7 @@ ft_printf/ft_conncat.o: ft_printf/ft_conncat.c.o
 
 # target to build an object file
 ft_printf/ft_conncat.c.o:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_conncat.c.o
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_conncat.c.o
 .PHONY : ft_printf/ft_conncat.c.o
 
 ft_printf/ft_conncat.i: ft_printf/ft_conncat.c.i
@@ -221,7 +221,7 @@ ft_printf/ft_conncat.i: ft_printf/ft_conncat.c.i
 
 # target to preprocess a source file
 ft_printf/ft_conncat.c.i:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_conncat.c.i
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_conncat.c.i
 .PHONY : ft_printf/ft_conncat.c.i
 
 ft_printf/ft_conncat.s: ft_printf/ft_conncat.c.s
@@ -230,7 +230,7 @@ ft_printf/ft_conncat.s: ft_printf/ft_conncat.c.s
 
 # target to generate assembly for a file
 ft_printf/ft_conncat.c.s:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_conncat.c.s
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_conncat.c.s
 .PHONY : ft_printf/ft_conncat.c.s
 
 ft_printf/ft_format_c.o: ft_printf/ft_format_c.c.o
@@ -239,7 +239,7 @@ ft_printf/ft_format_c.o: ft_printf/ft_format_c.c.o
 
 # target to build an object file
 ft_printf/ft_format_c.c.o:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_c.c.o
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_c.c.o
 .PHONY : ft_printf/ft_format_c.c.o
 
 ft_printf/ft_format_c.i: ft_printf/ft_format_c.c.i
@@ -248,7 +248,7 @@ ft_printf/ft_format_c.i: ft_printf/ft_format_c.c.i
 
 # target to preprocess a source file
 ft_printf/ft_format_c.c.i:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_c.c.i
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_c.c.i
 .PHONY : ft_printf/ft_format_c.c.i
 
 ft_printf/ft_format_c.s: ft_printf/ft_format_c.c.s
@@ -257,7 +257,7 @@ ft_printf/ft_format_c.s: ft_printf/ft_format_c.c.s
 
 # target to generate assembly for a file
 ft_printf/ft_format_c.c.s:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_c.c.s
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_c.c.s
 .PHONY : ft_printf/ft_format_c.c.s
 
 ft_printf/ft_format_d.o: ft_printf/ft_format_d.c.o
@@ -266,7 +266,7 @@ ft_printf/ft_format_d.o: ft_printf/ft_format_d.c.o
 
 # target to build an object file
 ft_printf/ft_format_d.c.o:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_d.c.o
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_d.c.o
 .PHONY : ft_printf/ft_format_d.c.o
 
 ft_printf/ft_format_d.i: ft_printf/ft_format_d.c.i
@@ -275,7 +275,7 @@ ft_printf/ft_format_d.i: ft_printf/ft_format_d.c.i
 
 # target to preprocess a source file
 ft_printf/ft_format_d.c.i:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_d.c.i
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_d.c.i
 .PHONY : ft_printf/ft_format_d.c.i
 
 ft_printf/ft_format_d.s: ft_printf/ft_format_d.c.s
@@ -284,7 +284,7 @@ ft_printf/ft_format_d.s: ft_printf/ft_format_d.c.s
 
 # target to generate assembly for a file
 ft_printf/ft_format_d.c.s:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_d.c.s
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_d.c.s
 .PHONY : ft_printf/ft_format_d.c.s
 
 ft_printf/ft_format_o.o: ft_printf/ft_format_o.c.o
@@ -293,7 +293,7 @@ ft_printf/ft_format_o.o: ft_printf/ft_format_o.c.o
 
 # target to build an object file
 ft_printf/ft_format_o.c.o:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_o.c.o
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_o.c.o
 .PHONY : ft_printf/ft_format_o.c.o
 
 ft_printf/ft_format_o.i: ft_printf/ft_format_o.c.i
@@ -302,7 +302,7 @@ ft_printf/ft_format_o.i: ft_printf/ft_format_o.c.i
 
 # target to preprocess a source file
 ft_printf/ft_format_o.c.i:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_o.c.i
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_o.c.i
 .PHONY : ft_printf/ft_format_o.c.i
 
 ft_printf/ft_format_o.s: ft_printf/ft_format_o.c.s
@@ -311,7 +311,7 @@ ft_printf/ft_format_o.s: ft_printf/ft_format_o.c.s
 
 # target to generate assembly for a file
 ft_printf/ft_format_o.c.s:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_o.c.s
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_o.c.s
 .PHONY : ft_printf/ft_format_o.c.s
 
 ft_printf/ft_format_p.o: ft_printf/ft_format_p.c.o
@@ -320,7 +320,7 @@ ft_printf/ft_format_p.o: ft_printf/ft_format_p.c.o
 
 # target to build an object file
 ft_printf/ft_format_p.c.o:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_p.c.o
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_p.c.o
 .PHONY : ft_printf/ft_format_p.c.o
 
 ft_printf/ft_format_p.i: ft_printf/ft_format_p.c.i
@@ -329,7 +329,7 @@ ft_printf/ft_format_p.i: ft_printf/ft_format_p.c.i
 
 # target to preprocess a source file
 ft_printf/ft_format_p.c.i:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_p.c.i
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_p.c.i
 .PHONY : ft_printf/ft_format_p.c.i
 
 ft_printf/ft_format_p.s: ft_printf/ft_format_p.c.s
@@ -338,7 +338,7 @@ ft_printf/ft_format_p.s: ft_printf/ft_format_p.c.s
 
 # target to generate assembly for a file
 ft_printf/ft_format_p.c.s:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_p.c.s
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_p.c.s
 .PHONY : ft_printf/ft_format_p.c.s
 
 ft_printf/ft_format_percent.o: ft_printf/ft_format_percent.c.o
@@ -347,7 +347,7 @@ ft_printf/ft_format_percent.o: ft_printf/ft_format_percent.c.o
 
 # target to build an object file
 ft_printf/ft_format_percent.c.o:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_percent.c.o
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_percent.c.o
 .PHONY : ft_printf/ft_format_percent.c.o
 
 ft_printf/ft_format_percent.i: ft_printf/ft_format_percent.c.i
@@ -356,7 +356,7 @@ ft_printf/ft_format_percent.i: ft_printf/ft_format_percent.c.i
 
 # target to preprocess a source file
 ft_printf/ft_format_percent.c.i:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_percent.c.i
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_percent.c.i
 .PHONY : ft_printf/ft_format_percent.c.i
 
 ft_printf/ft_format_percent.s: ft_printf/ft_format_percent.c.s
@@ -365,7 +365,7 @@ ft_printf/ft_format_percent.s: ft_printf/ft_format_percent.c.s
 
 # target to generate assembly for a file
 ft_printf/ft_format_percent.c.s:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_percent.c.s
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_percent.c.s
 .PHONY : ft_printf/ft_format_percent.c.s
 
 ft_printf/ft_format_s.o: ft_printf/ft_format_s.c.o
@@ -374,7 +374,7 @@ ft_printf/ft_format_s.o: ft_printf/ft_format_s.c.o
 
 # target to build an object file
 ft_printf/ft_format_s.c.o:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_s.c.o
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_s.c.o
 .PHONY : ft_printf/ft_format_s.c.o
 
 ft_printf/ft_format_s.i: ft_printf/ft_format_s.c.i
@@ -383,7 +383,7 @@ ft_printf/ft_format_s.i: ft_printf/ft_format_s.c.i
 
 # target to preprocess a source file
 ft_printf/ft_format_s.c.i:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_s.c.i
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_s.c.i
 .PHONY : ft_printf/ft_format_s.c.i
 
 ft_printf/ft_format_s.s: ft_printf/ft_format_s.c.s
@@ -392,7 +392,7 @@ ft_printf/ft_format_s.s: ft_printf/ft_format_s.c.s
 
 # target to generate assembly for a file
 ft_printf/ft_format_s.c.s:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_s.c.s
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_s.c.s
 .PHONY : ft_printf/ft_format_s.c.s
 
 ft_printf/ft_format_u.o: ft_printf/ft_format_u.c.o
@@ -401,7 +401,7 @@ ft_printf/ft_format_u.o: ft_printf/ft_format_u.c.o
 
 # target to build an object file
 ft_printf/ft_format_u.c.o:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_u.c.o
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_u.c.o
 .PHONY : ft_printf/ft_format_u.c.o
 
 ft_printf/ft_format_u.i: ft_printf/ft_format_u.c.i
@@ -410,7 +410,7 @@ ft_printf/ft_format_u.i: ft_printf/ft_format_u.c.i
 
 # target to preprocess a source file
 ft_printf/ft_format_u.c.i:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_u.c.i
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_u.c.i
 .PHONY : ft_printf/ft_format_u.c.i
 
 ft_printf/ft_format_u.s: ft_printf/ft_format_u.c.s
@@ -419,7 +419,7 @@ ft_printf/ft_format_u.s: ft_printf/ft_format_u.c.s
 
 # target to generate assembly for a file
 ft_printf/ft_format_u.c.s:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_u.c.s
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_u.c.s
 .PHONY : ft_printf/ft_format_u.c.s
 
 ft_printf/ft_format_x.o: ft_printf/ft_format_x.c.o
@@ -428,7 +428,7 @@ ft_printf/ft_format_x.o: ft_printf/ft_format_x.c.o
 
 # target to build an object file
 ft_printf/ft_format_x.c.o:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_x.c.o
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_x.c.o
 .PHONY : ft_printf/ft_format_x.c.o
 
 ft_printf/ft_format_x.i: ft_printf/ft_format_x.c.i
@@ -437,7 +437,7 @@ ft_printf/ft_format_x.i: ft_printf/ft_format_x.c.i
 
 # target to preprocess a source file
 ft_printf/ft_format_x.c.i:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_x.c.i
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_x.c.i
 .PHONY : ft_printf/ft_format_x.c.i
 
 ft_printf/ft_format_x.s: ft_printf/ft_format_x.c.s
@@ -446,7 +446,7 @@ ft_printf/ft_format_x.s: ft_printf/ft_format_x.c.s
 
 # target to generate assembly for a file
 ft_printf/ft_format_x.c.s:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_x.c.s
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_x.c.s
 .PHONY : ft_printf/ft_format_x.c.s
 
 ft_printf/ft_printf.o: ft_printf/ft_printf.c.o
@@ -455,7 +455,7 @@ ft_printf/ft_printf.o: ft_printf/ft_printf.c.o
 
 # target to build an object file
 ft_printf/ft_printf.c.o:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_printf.c.o
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_printf.c.o
 .PHONY : ft_printf/ft_printf.c.o
 
 ft_printf/ft_printf.i: ft_printf/ft_printf.c.i
@@ -464,7 +464,7 @@ ft_printf/ft_printf.i: ft_printf/ft_printf.c.i
 
 # target to preprocess a source file
 ft_printf/ft_printf.c.i:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_printf.c.i
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_printf.c.i
 .PHONY : ft_printf/ft_printf.c.i
 
 ft_printf/ft_printf.s: ft_printf/ft_printf.c.s
@@ -473,7 +473,7 @@ ft_printf/ft_printf.s: ft_printf/ft_printf.c.s
 
 # target to generate assembly for a file
 ft_printf/ft_printf.c.s:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_printf.c.s
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_printf.c.s
 .PHONY : ft_printf/ft_printf.c.s
 
 ft_printf/get_func_dict.o: ft_printf/get_func_dict.c.o
@@ -482,7 +482,7 @@ ft_printf/get_func_dict.o: ft_printf/get_func_dict.c.o
 
 # target to build an object file
 ft_printf/get_func_dict.c.o:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/get_func_dict.c.o
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/get_func_dict.c.o
 .PHONY : ft_printf/get_func_dict.c.o
 
 ft_printf/get_func_dict.i: ft_printf/get_func_dict.c.i
@@ -491,7 +491,7 @@ ft_printf/get_func_dict.i: ft_printf/get_func_dict.c.i
 
 # target to preprocess a source file
 ft_printf/get_func_dict.c.i:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/get_func_dict.c.i
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/get_func_dict.c.i
 .PHONY : ft_printf/get_func_dict.c.i
 
 ft_printf/get_func_dict.s: ft_printf/get_func_dict.c.s
@@ -500,7 +500,7 @@ ft_printf/get_func_dict.s: ft_printf/get_func_dict.c.s
 
 # target to generate assembly for a file
 ft_printf/get_func_dict.c.s:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/get_func_dict.c.s
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/get_func_dict.c.s
 .PHONY : ft_printf/get_func_dict.c.s
 
 ft_printf/get_modificator.o: ft_printf/get_modificator.c.o
@@ -509,7 +509,7 @@ ft_printf/get_modificator.o: ft_printf/get_modificator.c.o
 
 # target to build an object file
 ft_printf/get_modificator.c.o:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/get_modificator.c.o
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/get_modificator.c.o
 .PHONY : ft_printf/get_modificator.c.o
 
 ft_printf/get_modificator.i: ft_printf/get_modificator.c.i
@@ -518,7 +518,7 @@ ft_printf/get_modificator.i: ft_printf/get_modificator.c.i
 
 # target to preprocess a source file
 ft_printf/get_modificator.c.i:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/get_modificator.c.i
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/get_modificator.c.i
 .PHONY : ft_printf/get_modificator.c.i
 
 ft_printf/get_modificator.s: ft_printf/get_modificator.c.s
@@ -527,7 +527,7 @@ ft_printf/get_modificator.s: ft_printf/get_modificator.c.s
 
 # target to generate assembly for a file
 ft_printf/get_modificator.c.s:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/get_modificator.c.s
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/get_modificator.c.s
 .PHONY : ft_printf/get_modificator.c.s
 
 ft_printf/get_right_format.o: ft_printf/get_right_format.c.o
@@ -536,7 +536,7 @@ ft_printf/get_right_format.o: ft_printf/get_right_format.c.o
 
 # target to build an object file
 ft_printf/get_right_format.c.o:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/get_right_format.c.o
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/get_right_format.c.o
 .PHONY : ft_printf/get_right_format.c.o
 
 ft_printf/get_right_format.i: ft_printf/get_right_format.c.i
@@ -545,7 +545,7 @@ ft_printf/get_right_format.i: ft_printf/get_right_format.c.i
 
 # target to preprocess a source file
 ft_printf/get_right_format.c.i:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/get_right_format.c.i
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/get_right_format.c.i
 .PHONY : ft_printf/get_right_format.c.i
 
 ft_printf/get_right_format.s: ft_printf/get_right_format.c.s
@@ -554,7 +554,7 @@ ft_printf/get_right_format.s: ft_printf/get_right_format.c.s
 
 # target to generate assembly for a file
 ft_printf/get_right_format.c.s:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/get_right_format.c.s
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/get_right_format.c.s
 .PHONY : ft_printf/get_right_format.c.s
 
 ft_printf/parse_modifiers.o: ft_printf/parse_modifiers.c.o
@@ -563,7 +563,7 @@ ft_printf/parse_modifiers.o: ft_printf/parse_modifiers.c.o
 
 # target to build an object file
 ft_printf/parse_modifiers.c.o:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/parse_modifiers.c.o
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/parse_modifiers.c.o
 .PHONY : ft_printf/parse_modifiers.c.o
 
 ft_printf/parse_modifiers.i: ft_printf/parse_modifiers.c.i
@@ -572,7 +572,7 @@ ft_printf/parse_modifiers.i: ft_printf/parse_modifiers.c.i
 
 # target to preprocess a source file
 ft_printf/parse_modifiers.c.i:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/parse_modifiers.c.i
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/parse_modifiers.c.i
 .PHONY : ft_printf/parse_modifiers.c.i
 
 ft_printf/parse_modifiers.s: ft_printf/parse_modifiers.c.s
@@ -581,7 +581,7 @@ ft_printf/parse_modifiers.s: ft_printf/parse_modifiers.c.s
 
 # target to generate assembly for a file
 ft_printf/parse_modifiers.c.s:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/parse_modifiers.c.s
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/parse_modifiers.c.s
 .PHONY : ft_printf/parse_modifiers.c.s
 
 ft_printf/proccess_format.o: ft_printf/proccess_format.c.o
@@ -590,7 +590,7 @@ ft_printf/proccess_format.o: ft_printf/proccess_format.c.o
 
 # target to build an object file
 ft_printf/proccess_format.c.o:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/proccess_format.c.o
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/proccess_format.c.o
 .PHONY : ft_printf/proccess_format.c.o
 
 ft_printf/proccess_format.i: ft_printf/proccess_format.c.i
@@ -599,7 +599,7 @@ ft_printf/proccess_format.i: ft_printf/proccess_format.c.i
 
 # target to preprocess a source file
 ft_printf/proccess_format.c.i:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/proccess_format.c.i
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/proccess_format.c.i
 .PHONY : ft_printf/proccess_format.c.i
 
 ft_printf/proccess_format.s: ft_printf/proccess_format.c.s
@@ -608,7 +608,7 @@ ft_printf/proccess_format.s: ft_printf/proccess_format.c.s
 
 # target to generate assembly for a file
 ft_printf/proccess_format.c.s:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/proccess_format.c.s
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/ft_printf/CMakeFiles/ft_printf.dir/build.make libft/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/proccess_format.c.s
 .PHONY : ft_printf/proccess_format.c.s
 
 # Help Target
@@ -685,6 +685,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

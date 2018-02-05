@@ -25,4 +25,4 @@ include_directories(src)
 
 add_executable(lem-in ${SOURCE_FILES})
 
-target_link_libraries(lem-in classes_lib libft.a -L/home/vukolov/Documents/unit/lem-in/libmlx -lm)
+target_link_libraries(lem-in classes_lib libft.a -lm)

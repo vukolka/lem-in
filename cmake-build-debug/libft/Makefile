@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/vukolov/Downloads/clion-2017.3.1/bin/cmake/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/vukolov/Downloads/clion-2017.3.1/bin/cmake/bin/cmake -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vukolov/Documents/unit/lem-in
+CMAKE_SOURCE_DIR = /Users/mvukolov/Documents/lem-in
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vukolov/Documents/unit/lem-in/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/mvukolov/Documents/lem-in/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/vukolov/Documents/unit/lem-in/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/vukolov/Downloads/clion-2017.3.1/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/vukolov/Downloads/clion-2017.3.1/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/vukolov/Documents/unit/lem-in/cmake-build-debug/CMakeFiles /home/vukolov/Documents/unit/lem-in/cmake-build-debug/libft/CMakeFiles/progress.marks
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 libft/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vukolov/Documents/unit/lem-in/cmake-build-debug/CMakeFiles 0
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/mvukolov/Documents/lem-in/cmake-build-debug/CMakeFiles /Users/mvukolov/Documents/lem-in/cmake-build-debug/libft/CMakeFiles/progress.marks
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 libft/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mvukolov/Documents/lem-in/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 libft/clean
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 libft/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 libft/preinstall
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 libft/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 libft/preinstall
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 libft/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libft/CMakeFiles/libft.a.dir/rule:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 libft/CMakeFiles/libft.a.dir/rule
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 libft/CMakeFiles/libft.a.dir/rule
 .PHONY : libft/CMakeFiles/libft.a.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ libft.a: libft/CMakeFiles/libft.a.dir/rule
 
 # fast build rule for target.
 libft.a/fast:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/CMakeFiles/libft.a.dir/build.make libft/CMakeFiles/libft.a.dir/build
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/CMakeFiles/libft.a.dir/build.make libft/CMakeFiles/libft.a.dir/build
 .PHONY : libft.a/fast
 
 get_next_line/get_next_line.o: get_next_line/get_next_line.c.o
@@ -131,7 +131,7 @@ get_next_line/get_next_line.o: get_next_line/get_next_line.c.o
 
 # target to build an object file
 get_next_line/get_next_line.c.o:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/CMakeFiles/libft.a.dir/build.make libft/CMakeFiles/libft.a.dir/get_next_line/get_next_line.c.o
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/CMakeFiles/libft.a.dir/build.make libft/CMakeFiles/libft.a.dir/get_next_line/get_next_line.c.o
 .PHONY : get_next_line/get_next_line.c.o
 
 get_next_line/get_next_line.i: get_next_line/get_next_line.c.i
@@ -140,7 +140,7 @@ get_next_line/get_next_line.i: get_next_line/get_next_line.c.i
 
 # target to preprocess a source file
 get_next_line/get_next_line.c.i:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/CMakeFiles/libft.a.dir/build.make libft/CMakeFiles/libft.a.dir/get_next_line/get_next_line.c.i
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/CMakeFiles/libft.a.dir/build.make libft/CMakeFiles/libft.a.dir/get_next_line/get_next_line.c.i
 .PHONY : get_next_line/get_next_line.c.i
 
 get_next_line/get_next_line.s: get_next_line/get_next_line.c.s
@@ -149,7 +149,7 @@ get_next_line/get_next_line.s: get_next_line/get_next_line.c.s
 
 # target to generate assembly for a file
 get_next_line/get_next_line.c.s:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(MAKE) -f libft/CMakeFiles/libft.a.dir/build.make libft/CMakeFiles/libft.a.dir/get_next_line/get_next_line.c.s
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(MAKE) -f libft/CMakeFiles/libft.a.dir/build.make libft/CMakeFiles/libft.a.dir/get_next_line/get_next_line.c.s
 .PHONY : get_next_line/get_next_line.c.s
 
 # Help Target
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/vukolov/Documents/unit/lem-in/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/mvukolov/Documents/lem-in/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

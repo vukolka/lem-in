@@ -1,0 +1,28 @@
+5
+r0 1 1
+##start
+rs 0 0
+r2 3 3
+r1 2 2
+r3 4 4
+r5 6 6
+r4 5 5
+r7 8 8
+##end
+re 10 10
+r9 9 9
+rs-r7
+r0-rs
+rs-r1
+r2-r1
+r0-r3
+r4-r0
+r1-r4
+r5-r1
+r2-r5
+r2-r6
+r3-r4
+r4-r5
+r6-r5
+r6-r7
+r8-re
