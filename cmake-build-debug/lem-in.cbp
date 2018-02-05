@@ -580,9 +580,6 @@
 		<Unit filename="/Users/mvukolov/Documents/lem-in/src/parsing.c">
 			<Option target="lem-in"/>
 		</Unit>
-		<Unit filename="/Users/mvukolov/Documents/lem-in/src/parsing_helper.c">
-			<Option target="lem-in"/>
-		</Unit>
 		<Unit filename="/Users/mvukolov/Documents/lem-in/src/room_lib.c">
 			<Option target="lem-in"/>
 		</Unit>

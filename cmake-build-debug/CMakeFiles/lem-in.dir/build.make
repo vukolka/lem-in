@@ -153,33 +153,9 @@ CMakeFiles/lem-in.dir/src/parsing.c.o.provides: CMakeFiles/lem-in.dir/src/parsin
 CMakeFiles/lem-in.dir/src/parsing.c.o.provides.build: CMakeFiles/lem-in.dir/src/parsing.c.o
 
 
-CMakeFiles/lem-in.dir/src/parsing_helper.c.o: CMakeFiles/lem-in.dir/flags.make
-CMakeFiles/lem-in.dir/src/parsing_helper.c.o: ../src/parsing_helper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/lem-in.dir/src/parsing_helper.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem-in.dir/src/parsing_helper.c.o   -c /Users/mvukolov/Documents/lem-in/src/parsing_helper.c
-
-CMakeFiles/lem-in.dir/src/parsing_helper.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem-in.dir/src/parsing_helper.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/lem-in/src/parsing_helper.c > CMakeFiles/lem-in.dir/src/parsing_helper.c.i
-
-CMakeFiles/lem-in.dir/src/parsing_helper.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem-in.dir/src/parsing_helper.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/lem-in/src/parsing_helper.c -o CMakeFiles/lem-in.dir/src/parsing_helper.c.s
-
-CMakeFiles/lem-in.dir/src/parsing_helper.c.o.requires:
-
-.PHONY : CMakeFiles/lem-in.dir/src/parsing_helper.c.o.requires
-
-CMakeFiles/lem-in.dir/src/parsing_helper.c.o.provides: CMakeFiles/lem-in.dir/src/parsing_helper.c.o.requires
-	$(MAKE) -f CMakeFiles/lem-in.dir/build.make CMakeFiles/lem-in.dir/src/parsing_helper.c.o.provides.build
-.PHONY : CMakeFiles/lem-in.dir/src/parsing_helper.c.o.provides
-
-CMakeFiles/lem-in.dir/src/parsing_helper.c.o.provides.build: CMakeFiles/lem-in.dir/src/parsing_helper.c.o
-
-
 CMakeFiles/lem-in.dir/src/mark_map.c.o: CMakeFiles/lem-in.dir/flags.make
 CMakeFiles/lem-in.dir/src/mark_map.c.o: ../src/mark_map.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/lem-in.dir/src/mark_map.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/lem-in.dir/src/mark_map.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem-in.dir/src/mark_map.c.o   -c /Users/mvukolov/Documents/lem-in/src/mark_map.c
 
 CMakeFiles/lem-in.dir/src/mark_map.c.i: cmake_force
@@ -203,7 +179,7 @@ CMakeFiles/lem-in.dir/src/mark_map.c.o.provides.build: CMakeFiles/lem-in.dir/src
 
 CMakeFiles/lem-in.dir/src/solve.c.o: CMakeFiles/lem-in.dir/flags.make
 CMakeFiles/lem-in.dir/src/solve.c.o: ../src/solve.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/lem-in.dir/src/solve.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/lem-in.dir/src/solve.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem-in.dir/src/solve.c.o   -c /Users/mvukolov/Documents/lem-in/src/solve.c
 
 CMakeFiles/lem-in.dir/src/solve.c.i: cmake_force
@@ -231,7 +207,6 @@ lem__in_OBJECTS = \
 "CMakeFiles/lem-in.dir/src/room_lib.c.o" \
 "CMakeFiles/lem-in.dir/src/ft_print_error.c.o" \
 "CMakeFiles/lem-in.dir/src/parsing.c.o" \
-"CMakeFiles/lem-in.dir/src/parsing_helper.c.o" \
 "CMakeFiles/lem-in.dir/src/mark_map.c.o" \
 "CMakeFiles/lem-in.dir/src/solve.c.o"
 
@@ -242,7 +217,6 @@ lem-in: CMakeFiles/lem-in.dir/src/main.c.o
 lem-in: CMakeFiles/lem-in.dir/src/room_lib.c.o
 lem-in: CMakeFiles/lem-in.dir/src/ft_print_error.c.o
 lem-in: CMakeFiles/lem-in.dir/src/parsing.c.o
-lem-in: CMakeFiles/lem-in.dir/src/parsing_helper.c.o
 lem-in: CMakeFiles/lem-in.dir/src/mark_map.c.o
 lem-in: CMakeFiles/lem-in.dir/src/solve.c.o
 lem-in: CMakeFiles/lem-in.dir/build.make
@@ -251,7 +225,7 @@ lem-in: libft/liblibft.a.a
 lem-in: libft/ft_printf/libft_printf.a
 lem-in: libft/ft_printf/libftprintf/liblibft.a
 lem-in: CMakeFiles/lem-in.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mvukolov/Documents/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable lem-in"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mvukolov/Documents/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable lem-in"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lem-in.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -263,7 +237,6 @@ CMakeFiles/lem-in.dir/requires: CMakeFiles/lem-in.dir/src/main.c.o.requires
 CMakeFiles/lem-in.dir/requires: CMakeFiles/lem-in.dir/src/room_lib.c.o.requires
 CMakeFiles/lem-in.dir/requires: CMakeFiles/lem-in.dir/src/ft_print_error.c.o.requires
 CMakeFiles/lem-in.dir/requires: CMakeFiles/lem-in.dir/src/parsing.c.o.requires
-CMakeFiles/lem-in.dir/requires: CMakeFiles/lem-in.dir/src/parsing_helper.c.o.requires
 CMakeFiles/lem-in.dir/requires: CMakeFiles/lem-in.dir/src/mark_map.c.o.requires
 CMakeFiles/lem-in.dir/requires: CMakeFiles/lem-in.dir/src/solve.c.o.requires
 

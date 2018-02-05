@@ -283,33 +283,6 @@ src/parsing.c.s:
 	$(MAKE) -f CMakeFiles/lem-in.dir/build.make CMakeFiles/lem-in.dir/src/parsing.c.s
 .PHONY : src/parsing.c.s
 
-src/parsing_helper.o: src/parsing_helper.c.o
-
-.PHONY : src/parsing_helper.o
-
-# target to build an object file
-src/parsing_helper.c.o:
-	$(MAKE) -f CMakeFiles/lem-in.dir/build.make CMakeFiles/lem-in.dir/src/parsing_helper.c.o
-.PHONY : src/parsing_helper.c.o
-
-src/parsing_helper.i: src/parsing_helper.c.i
-
-.PHONY : src/parsing_helper.i
-
-# target to preprocess a source file
-src/parsing_helper.c.i:
-	$(MAKE) -f CMakeFiles/lem-in.dir/build.make CMakeFiles/lem-in.dir/src/parsing_helper.c.i
-.PHONY : src/parsing_helper.c.i
-
-src/parsing_helper.s: src/parsing_helper.c.s
-
-.PHONY : src/parsing_helper.s
-
-# target to generate assembly for a file
-src/parsing_helper.c.s:
-	$(MAKE) -f CMakeFiles/lem-in.dir/build.make CMakeFiles/lem-in.dir/src/parsing_helper.c.s
-.PHONY : src/parsing_helper.c.s
-
 src/room_lib.o: src/room_lib.c.o
 
 .PHONY : src/room_lib.o
@@ -389,9 +362,6 @@ help:
 	@echo "... src/parsing.o"
 	@echo "... src/parsing.i"
 	@echo "... src/parsing.s"
-	@echo "... src/parsing_helper.o"
-	@echo "... src/parsing_helper.i"
-	@echo "... src/parsing_helper.s"
 	@echo "... src/room_lib.o"
 	@echo "... src/room_lib.i"
 	@echo "... src/room_lib.s"

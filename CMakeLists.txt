@@ -8,7 +8,6 @@ set(SOURCE_FILES
         src/room_lib.c
         src/ft_print_error.c
         src/parsing.c
-        src/parsing_helper.c
         src/lemin.h
         src/mark_map.c
         src/solve.c)
