@@ -1,48 +1,21 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   solve.c                                            :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mvukolov <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2018/02/05 19:11:42 by mvukolov          #+#    #+#             */
+/*   Updated: 2018/02/05 19:11:43 by mvukolov         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include <room.h>
 #include "lemin.h"
 #include <string.h>
 #include <ft_printf.h>
 #include <fcntl.h>
 #include <get_next_line.h>
-
-void	print_map(char *s_filename)
-{
-	int			fd;
-	static char *filename;
-	char		*line;
-	static int	printed;
-
-	if (s_filename || printed)
-	{
-		filename = s_filename;
-		return ;
-	}
-	fd = open(filename, O_RDONLY);
-	if (fd < 0)
-		ft_print_error(INVALID_MAP);
-	while (get_next_line(fd, &line))
-	{
-		ft_printf("%s\n", line);
-		free(line);
-	}
-	ft_printf("\n");
-	printed = 1;
-	close(fd);
-}
-
-int 	in_mid_way(t_ant *ants, int total_ants, void *end)
-{
-	int i;
-
-	i = 0;
-	while (i < total_ants)
-	{
-		if (ants[i].room != end)
-			return (1);
-		i++;
-	}
-	return (0);
-}
 
 t_room	*find_best_move(t_llist *conns, t_room *current, t_room *end)
 {
@@ -68,9 +41,9 @@ t_room	*find_best_move(t_llist *conns, t_room *current, t_room *end)
 
 int		make_step(t_ant *ant, t_room *end)
 {
-	t_room *current;
+	t_room	*current;
 	t_room	*best;
-	t_llist *conns;
+	t_llist	*conns;
 	t_room	*temp;
 
 	best = NULL;
@@ -91,16 +64,13 @@ int		make_step(t_ant *ant, t_room *end)
 	return (0);
 }
 
-
-void perform_move(t_ant *ants, t_env *env)
+void	perform_move(t_ant *ants, t_env *env)
 {
 	int i;
 	int moved;
 	int moved_at_all;
 
-	moved_at_all = 0;
-	i = 0;
-	moved = 0;
+	init_shit_omg(&moved_at_all, &i, &moved);
 	while (i < env->total_ants)
 	{
 		if (ants[i].moved)
@@ -117,10 +87,7 @@ void perform_move(t_ant *ants, t_env *env)
 			}
 		i++;
 		if (moved)
-		{
-			i = 0;
-			moved = 0;
-		}
+			init_shit_omg(&i, &moved, &i);
 	}
 	if (!moved_at_all)
 		ft_print_error(INVALID_MAP);
@@ -129,14 +96,14 @@ void perform_move(t_ant *ants, t_env *env)
 void	move_ants(t_env *env)
 {
 	t_ant	ants[env->total_ants];
-	int 	i;
+	int		i;
 
 	i = 0;
 	while (i < env->total_ants)
 	{
 		ants[i].id = i + 1;
 		ants[i].room = env->head;
-        ants[i].moved = 0;
+		ants[i].moved = 0;
 		i++;
 	}
 	while (in_mid_way(ants, env->total_ants, env->end))
@@ -147,10 +114,7 @@ void	move_ants(t_env *env)
 			ants[i++].moved = 0;
 		ft_printf("\n");
 	}
-
 }
-
-
 
 void	solve(char *filename)
 {

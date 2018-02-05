@@ -10,7 +10,7 @@ set(SOURCE_FILES
         src/parsing.c
         src/lemin.h
         src/mark_map.c
-        src/solve.c)
+        src/solve.c src/parsing_add.c)
 
 add_subdirectory(libft)
 

@@ -8,8 +8,6 @@
 
 ../classes_lib/Linked_list.h
 
-../classes_lib/MLXConn.h
-
 ../classes_lib/classes_lib.h
 
 ../classes_lib/new.h
@@ -75,8 +73,6 @@ classes_lib.h
 -
 new.h
 -
-MLXConn.h
--
 room.h
 -
 ft_printf.h
@@ -92,6 +88,10 @@ new.h
 ft_printf.h
 -
 room.h
+-
+fcntl.h
+-
+get_next_line.h
 -
 lemin.h
 /Users/mvukolov/Documents/lem-in/src/lemin.h
@@ -112,13 +112,33 @@ room.h
 lemin.h
 /Users/mvukolov/Documents/lem-in/src/lemin.h
 
-/Users/mvukolov/Documents/lem-in/src/parsing_helper.c
+/Users/mvukolov/Documents/lem-in/src/parsing_add.c
+stddef.h
+-
+libft.h
+-
+get_next_line.h
+-
+room.h
+-
+new.h
+-
+lemin.h
+/Users/mvukolov/Documents/lem-in/src/lemin.h
 
 /Users/mvukolov/Documents/lem-in/src/room_lib.c
 room.h
 -
 libft.h
 -
+new.h
+-
+ft_printf.h
+-
+get_next_line.h
+-
+lemin.h
+/Users/mvukolov/Documents/lem-in/src/lemin.h
 
 /Users/mvukolov/Documents/lem-in/src/solve.c
 room.h

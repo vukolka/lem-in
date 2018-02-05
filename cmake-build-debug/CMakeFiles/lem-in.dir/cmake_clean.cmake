@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/lem-in.dir/src/parsing.c.o"
   "CMakeFiles/lem-in.dir/src/mark_map.c.o"
   "CMakeFiles/lem-in.dir/src/solve.c.o"
+  "CMakeFiles/lem-in.dir/src/parsing_add.c.o"
   "lem-in.pdb"
   "lem-in"
 )
