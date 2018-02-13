@@ -81,6 +81,7 @@ static void		get_map_list(int fd, t_env *env)
 			ft_print_error(INVALID_MAP);
 		free(line);
 	}
+	get_map_list_add(fd, env, line);
 }
 
 static int		get_ants(int fd)

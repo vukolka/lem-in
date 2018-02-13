@@ -37,6 +37,7 @@ typedef struct	s_ant
 	int			moved;
 }				t_ant;
 
+void			get_map_list_add(int fd, t_env *env, char *line);
 void			init_shit_omg(int *a, int *b, int *c);
 int				command_isnt_allowed(char *string);
 int				set_connection(char *line, t_llist *map);
