@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(SDL_tut)
+project(visu-hex)
 
 set(CMAKE_CXX_STANDARD 11)
 
@@ -27,10 +27,10 @@ set(SOURCE_FILES
         src/AntObj.h)
 
 
-add_executable(SDL_tut ${SOURCE_FILES})
+add_executable(visu-hex ${SOURCE_FILES})
 
 include_directories("/Users/mvukolov/.brew/Cellar/sdl2/2.0.7/include/SDL2")
 include_directories("/Users/mvukolov/.brew/Cellar/sdl2_ttf/2.0.14/include/SDL2")
 include_directories("/Users/mvukolov/.brew/Cellar/sdl2_image/2.0.2/include/SDL2")
 
-target_link_libraries(SDL_tut -L/Users/mvukolov/.brew/Cellar/sdl2/2.0.7/lib -L/Users/mvukolov/.brew/Cellar/sdl2_ttf/2.0.14/lib -L/Users/mvukolov/.brew/Cellar/sdl2_image/2.0.2/lib -lSDL2 -lSDL2_ttf -lSDL2_image)
+target_link_libraries(visu-hex -L/Users/mvukolov/.brew/Cellar/sdl2/2.0.7/lib -L/Users/mvukolov/.brew/Cellar/sdl2_ttf/2.0.14/lib -L/Users/mvukolov/.brew/Cellar/sdl2_image/2.0.2/lib -lSDL2 -lSDL2_ttf -lSDL2_image)
