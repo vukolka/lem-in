@@ -6,7 +6,7 @@
 /*   By: mvukolov <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/02/05 18:59:35 by mvukolov          #+#    #+#             */
-/*   Updated: 2018/02/05 18:59:36 by mvukolov         ###   ########.fr       */
+/*   Updated: 2018/02/13 22:00:27 by mvukolov         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,10 +72,7 @@ void			get_head_or_end(int fd, t_env *env, char **line)
 	else if (ft_strcmp(*line, "##end") == 0)
 		flag = 2;
 	else
-	{
-		free(*line);
 		return ;
-	}
 	if ((flag == 1 && env->head) || (flag == 2 && env->end))
 		ft_print_error(INVALID_MAP);
 	free(*line);
