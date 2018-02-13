@@ -49,7 +49,6 @@ bool LeminMap::initMap()
 			setConnection(line);
 		else
 			break;
-		std::cout << line << std::endl;
 	}
 	initAnts();
 	antObjs = new AntObj(ants, start);
@@ -157,7 +156,6 @@ bool LeminMap::makeTurn()
 		x = atoi(line.c_str() + 1);
 		fromRoom = antsArray.at(x - 1);
 		line.erase(0, line.find_first_of("-") + 1);
-		std::cout << line << std::endl;
 		toRoom = roomFind(line.substr(0, line.find_first_of(" ")));
 		moveList.push_front({fromRoom, toRoom});
 		antsArray.at(x - 1) = toRoom;

@@ -9,7 +9,6 @@ void AntObj::stepForward()
 	assert(inMidWay);
 	for (int i = 0; i < antsTotal; ++i)
 	{
-		std::cout << i << " was x: " << antsArray[i]->x << ", y: " << antsArray[i]->y << std::endl;
 		if (antsArray[i]->toRoom)
 		{
 			if (!antsArrived(antsArray[i]))
@@ -20,7 +19,6 @@ void AntObj::stepForward()
 				break;
 			}
 		}
-		std::cout << "became x: " << antsArray[i]->x << ", y: " << antsArray[i]->y << std::endl;
 	}
 }
 
