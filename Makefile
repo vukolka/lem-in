@@ -14,6 +14,7 @@ $(NAME): $(OBJECTS)
 	gcc -o $(NAME) $(FLAGS) $(OBJECTS) libft/get_next_line/get_next_line.o libft/classes_lib/classes_lib.a libft/ft_printf/libftprintf.a -lmlx -framework OpenGL -framework AppKit
 	cmake lemin_visualization/CMakeLists.txt
 	$(MAKE) -C lemin_visualization/
+	cp lemin_visualization/visu-hex .
 clean:
 	$(MAKE) -C libft/ clean
 	-rm $(OBJECTS)
