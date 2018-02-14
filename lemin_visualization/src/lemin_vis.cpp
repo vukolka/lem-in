@@ -10,8 +10,8 @@
 lemin_vis::lemin_vis()
 {
 	imgFlags = IMG_INIT_PNG;
-	screenWidth = 1300;
-	screenHeight = 700;
+	screenWidth = 2500;
+	screenHeight = 1200;
 	running = true;
 }
 
