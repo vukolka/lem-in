@@ -1,0 +1,11 @@
+5
+##start
+rs 7 7
+r0 0 0
+r1 1 1
+r2 2 2
+r3 3 3
+##end
+re 8 8
+rs-r0
+r1-re

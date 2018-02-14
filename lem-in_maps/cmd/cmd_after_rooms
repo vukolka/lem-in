@@ -1,0 +1,26 @@
+5
+##start
+r_start 23 3
+r_1 16 7
+r_2 16 3
+r_3 24 12
+r_4 7 19
+r_5 16 5
+r_6 9 3
+r_7 1 5
+r_8 4 8
+##end
+r_end 9 5
+##CMD_AFTER_ROOMS
+r_end-r_6
+r_end-r_7
+r_start-r_2
+r_5-r_2
+r_6-r_1
+r_2-r_6
+r_5-r_1
+r_1-r_start
+r_8-r_7
+r_8-r_1
+r_8-r_5
+r_7-r_6
