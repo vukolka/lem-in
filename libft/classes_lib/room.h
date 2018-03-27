@@ -6,14 +6,14 @@
 /*   By: mvukolov <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/02/05 19:55:03 by mvukolov          #+#    #+#             */
-/*   Updated: 2018/02/05 19:55:03 by mvukolov         ###   ########.fr       */
+/*   Updated: 2018/03/27 11:32:44 by mvukolov         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LEM_IN_ROOM_H
 # define LEM_IN_ROOM_H
 
-# include "Linked_list.h"
+# include "linked_list.h"
 
 extern const void	*g_room;
 void				room_init();

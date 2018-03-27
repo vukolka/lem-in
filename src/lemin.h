@@ -6,13 +6,13 @@
 /*   By: mvukolov <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/02/05 17:56:38 by mvukolov          #+#    #+#             */
-/*   Updated: 2018/02/05 17:56:39 by mvukolov         ###   ########.fr       */
+/*   Updated: 2018/03/27 11:32:16 by mvukolov         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LEM_IN_LEMIN_H
 # define LEM_IN_LEMIN_H
-# include <Linked_list.h>
+# include <linked_list.h>
 # define PRINT_USAGE 1
 # define TO_MANY_ARGS 2
 # define INVALID_MAP 3

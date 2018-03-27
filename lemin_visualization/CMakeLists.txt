@@ -29,8 +29,8 @@ set(SOURCE_FILES
 
 add_executable(visu-hex ${SOURCE_FILES})
 
-include_directories("/Users/mvukolov/.brew/Cellar/sdl2/2.0.7/include/SDL2")
+include_directories("/Users/mvukolov/.brew/Cellar/sdl2/2.0.8/include/SDL2")
 include_directories("/Users/mvukolov/.brew/Cellar/sdl2_ttf/2.0.14/include/SDL2")
-include_directories("/Users/mvukolov/.brew/Cellar/sdl2_image/2.0.2/include/SDL2")
+include_directories("/Users/mvukolov/.brew/Cellar/sdl2_image/2.0.3/include/SDL2")
 
-target_link_libraries(visu-hex -L/Users/mvukolov/.brew/Cellar/sdl2/2.0.7/lib -L/Users/mvukolov/.brew/Cellar/sdl2_ttf/2.0.14/lib -L/Users/mvukolov/.brew/Cellar/sdl2_image/2.0.2/lib -lSDL2 -lSDL2_ttf -lSDL2_image)
+target_link_libraries(visu-hex -L/Users/mvukolov/.brew/Cellar/sdl2/2.0.8/lib -L/Users/mvukolov/.brew/Cellar/sdl2_ttf/2.0.14/lib -L/Users/mvukolov/.brew/Cellar/sdl2_image/2.0.3/lib -lSDL2 -lSDL2_ttf -lSDL2_image)
