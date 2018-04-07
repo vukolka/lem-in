@@ -11,8 +11,8 @@ You can move each ant only once in every turn. Also, next rules must be obtained
 
 Output is printed in STOUT or visualized.
 Output layout:
-evety turn is a sequence of andID-toRoomName
-Tyrns are separeted by \n,
+every turn is a sequence of andID-toRoomName
+Turns are separeted by \n,
 for example:
 
 1-5 2-6 3-7
